@@ -1,0 +1,71 @@
+.footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .textStyle {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .addressStyle {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .socialIconsStyle {
+    margin-top: 20px;
+  }
+  
+  .iconLinkStyle {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .textStyle {
+      font-size: 1rem;
+    }
+  
+    .addressStyle {
+      font-size: 0.8rem;
+      margin-top: 5px;
+    }
+  
+    .socialIconsStyle {
+      margin-top: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .textStyle {
+      font-size: 0.9rem;
+    }
+  
+    .addressStyle {
+      font-size: 0.7rem;
+      margin-top: 3px;
+    }
+  
+    .socialIconsStyle {
+      margin-top: 10px;
+    }
+  
+    .iconLinkStyle {
+      font-size: 1.2rem;
+      margin: 0 8px;
+    }
+  }
+  
