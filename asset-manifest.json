@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.d6276ce6.css",
-    "main.js": "/mythiverse-react/static/js/main.d4028bad.js",
+    "main.css": "/mythiverse-react/static/css/main.89ac3e5a.css",
+    "main.js": "/mythiverse-react/static/js/main.89798681.js",
     "index.html": "/mythiverse-react/index.html",
-    "main.d6276ce6.css.map": "/mythiverse-react/static/css/main.d6276ce6.css.map",
-    "main.d4028bad.js.map": "/mythiverse-react/static/js/main.d4028bad.js.map"
+    "main.89ac3e5a.css.map": "/mythiverse-react/static/css/main.89ac3e5a.css.map",
+    "main.89798681.js.map": "/mythiverse-react/static/js/main.89798681.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6276ce6.css",
-    "static/js/main.d4028bad.js"
+    "static/css/main.89ac3e5a.css",
+    "static/js/main.89798681.js"
   ]
 }
