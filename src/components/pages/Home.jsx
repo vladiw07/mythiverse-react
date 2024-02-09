@@ -1,10 +1,13 @@
 import React from 'react'
+import WelcomeSection from '../WelcomeSection'
 
 
 function Home() {
   return (
     
-    <div>Home</div>
+    <>
+      <WelcomeSection />
+    </>
     
     
   )
