@@ -56,5 +56,8 @@
 
 .imageStart h1, .imageStart p {
     margin: 0;
-    
+    font-size: 1.5vw;
+}
+.imageStart h1{
+    font-size: 2.5vw;
 }
