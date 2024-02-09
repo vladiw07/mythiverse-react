@@ -1,61 +1,60 @@
-.image-start-wrapper{
+.image-start-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    position: relative;
+    height: 70vh; /* 70% of the viewport height */
+    overflow: hidden; /* Hide any overflow content */
+    margin-top: -23px;
 }
+
 .imageStart {
     background: url(/public/images/greekMythology.avif);
     width: 100%;
-    height: 650px; 
-    position: relative;
+    height: 100%; /* Adjusted to fill the container */
+    position: relative; /* Change back to relative positioning */
     background-repeat: no-repeat;
-    background-attachment: scroll; 
-    background-size: cover; 
+    background-attachment: scroll;
+    background-size: cover;
     z-index: 1;
-    bottom: 100px;
-    background-position: center; 
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 0; /* Remove default margin */
 }
+
 .greekMythology-page-wrapper {
     display: flex;
-    justify-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     flex-direction: column;
     z-index: 2;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .h1-text-wrapper {
     display: flex;
-    justify-content: space-between;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     z-index: 1;
-    color: rgb(255, 255, 255);
-}
-.textArea{
-    position: absolute;
-}
-.image-start-wrapper h1{
-    position: absolute;
-    font-size: 3vw;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 1;
-    top: 180px;
-    color: rgb(255, 255, 255);
-}
-.image-start-wrapper p{
-    position: absolute;
-    font-size: 1vw;
-    margin-top: 15px;
-    white-space: nowrap;
-    z-index: 1;
-    top: 250px;
     color: rgb(255, 255, 255);
 }
 
+.textArea {
+    position: absolute;
+}
+
+.imageStart h1, .imageStart p {
+    margin: 0;
+    
+}
