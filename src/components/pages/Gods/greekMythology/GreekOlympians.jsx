@@ -1,10 +1,10 @@
 import React from 'react'
-import GodTemplate from '../../Mythologies/GodTemplate'
+import GodTemplate from '../../Mythologies/greekMythology/athenaTemplate'
 
 function GreekOlympians() {
   return (
     <div>
-      <GodTemplate />
+      
     </div>
   )
 }
