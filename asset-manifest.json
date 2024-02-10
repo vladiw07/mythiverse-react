@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.5dc00dc3.css",
-    "main.js": "/mythiverse-react/static/js/main.c93e1f51.js",
+    "main.css": "/mythiverse-react/static/css/main.4df112fa.css",
+    "main.js": "/mythiverse-react/static/js/main.5b972e11.js",
     "static/media/mainMythology.jpg": "/mythiverse-react/static/media/mainMythology.11965a9177a8d1495ad0.jpg",
+    "static/media/norseMythology.jpg": "/mythiverse-react/static/media/norseMythology.2fbd81b0556c0958fb02.jpg",
     "static/media/greekMythology.avif": "/mythiverse-react/static/media/greekMythology.5d4909e078e1ee37bcf7.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.5dc00dc3.css.map": "/mythiverse-react/static/css/main.5dc00dc3.css.map",
-    "main.c93e1f51.js.map": "/mythiverse-react/static/js/main.c93e1f51.js.map"
+    "main.4df112fa.css.map": "/mythiverse-react/static/css/main.4df112fa.css.map",
+    "main.5b972e11.js.map": "/mythiverse-react/static/js/main.5b972e11.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dc00dc3.css",
-    "static/js/main.c93e1f51.js"
+    "static/css/main.4df112fa.css",
+    "static/js/main.5b972e11.js"
   ]
 }
