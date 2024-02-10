@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.b986820e.css",
+    "main.css": "/mythiverse-react/static/css/main.577d7c96.css",
     "main.js": "/mythiverse-react/static/js/main.51e1a861.js",
     "static/media/greekMythology.avif": "/mythiverse-react/static/media/greekMythology.5d4909e078e1ee37bcf7.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.b986820e.css.map": "/mythiverse-react/static/css/main.b986820e.css.map",
+    "main.577d7c96.css.map": "/mythiverse-react/static/css/main.577d7c96.css.map",
     "main.51e1a861.js.map": "/mythiverse-react/static/js/main.51e1a861.js.map"
   },
   "entrypoints": [
-    "static/css/main.b986820e.css",
+    "static/css/main.577d7c96.css",
     "static/js/main.51e1a861.js"
   ]
 }
