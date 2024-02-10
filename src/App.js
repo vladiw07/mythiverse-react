@@ -1,5 +1,5 @@
 
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import "./styles.css";
 import { Navbar } from "./components/Navbar";
 
@@ -24,6 +24,16 @@ import hinduGodsImage from './components/pages/Mythologies/images/hinduGodsImage
 import aztecGodsImage from './components/pages/Mythologies/images/aztecGodsImage.avif'
 import japaneseGodsImage from './components/pages/Mythologies/images/japaneseGodsImage.avif'
 
+import Zeus from './components/pages/Gods/greekMythology/Zeus';
+import Athena from './components/pages/Gods/greekMythology/Athena';
+import Poseidon from "./components/pages/Gods/greekMythology/Poseidon";
+import Prometheus from "./components/pages/Gods/greekMythology/Prometheus";
+import GreekTitans from "./components/pages/Gods/greekMythology/GreekTitans";
+import GreekOlympians from "./components/pages/Gods/greekMythology/GreekOlympians";
+
+
+
+
 
 
 function App() {
@@ -39,8 +49,8 @@ function App() {
       header={'Ultimate Guide to Greek Mythology'} 
       topTextColor={'white'}
       firstText={<p>Greek mythology is the body of work detailing the origins of the ancient Hellenic world and the many deities who ruled over it.It includes the histories of gods and goddesses, heroes and monsters, as well as explanations for many important religious rituals.</p>} 
-      godsHeader={'Greek Gods'} godText={<p>The Greek gods ruled over every aspect of Hellenic existence—from war to love, from childbirth to the afterlife. Commonly depicted in human form, they were capriciou s deities who demanded worship and sacrifice  to stave off misfortune and ruin.</p>} 
-      godLiElements={<ul className="godsUl"><li>Greek Olympians</li><li>Athena</li><li>Poseidon</li><li>Greek Titans</li><li>Zeus</li><li>Prometheus</li></ul>} />} 
+      godsHeader={'Greek Gods'} godText={<p>The Greek gods ruled over every aspect of Hellenic existence—from war to love, from childbirth to the afterlife. Commonly depicted in human form, they were capricious deities who demanded worship and sacrifice  to stave off misfortune and ruin.</p>} 
+      godLiElements={<ul className="godsUl"><li><Link className="GodLink" to="/greekOlympians">Greek Olympians</Link></li><li><Link className="GodLink" to="/athena">Athena</Link></li><li><Link className="GodLink" to="/poseidon">Poseidon</Link></li><li><Link className="GodLink" to="/greekTitans">Greek Titans</Link></li><li><Link className="GodLink" to="/zeus">Zeus</Link></li><li><Link className="GodLink" to="/prometheus">Prometheus</Link></li></ul>} />} 
       />
 
       <Route 
@@ -118,10 +128,10 @@ function App() {
       firstText={<p>Aztec mythology is the collected myths and legends of the Aztec people. One of their best-known myths is the founding of the city Tenochtitlan, built on the spot where the travelers saw an eagle perched on a cactus and holding a rattlesnake, an image which endures on the Mexican flag today.</p>} 
       godsHeader={'Aztec Gods'}
       godText={<p>The Aztec gods and goddesses were a bloodthirsty group whose constant warring with each other led to a cycle of death and rebirth for all humanity. Each of the first four ages was ruled by a different deity, or “sun,” and each age ended in violence before a new sun was chosen.</p>}
-      godLiElements={<ul className="godsUl"><li>QuetZalcoatl</li><li>Mictlantecuhtli</li><li>Tezcatlipoca</li><li>Huitzilopochtli</li><li>Ometeotl</li><li>Mixcoatl</li></ul>} />} 
+      godLiElements={<ul className="godsUl"><li>Quetzalcoatl</li><li>Mictlantecuhtli</li><li>Tezcatlipoca</li><li>Huitzilopochtli</li><li>Ometeotl</li><li>Mixcoatl</li></ul>} />} 
       />
 
-<Route 
+    <Route 
       path="/Japanese-mythology" 
       element={<MythologyTemplate 
       imageUrl={japaneseMythology} 
@@ -139,6 +149,17 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+
+
+
+        {/***********************Gods**************************/}
+        <Route path="/zeus" element={<Zeus />} />
+        <Route path="/athena" element={<Athena />} />
+        <Route path="/greekOlympians" element={<GreekOlympians />} />
+        <Route path="/greekTitans" element={<GreekTitans />} />
+        <Route path="/poseidon" element={<Poseidon />} />
+        <Route path="/prometheus" element={<Prometheus />} />
+
       </Routes>
      
     </div>

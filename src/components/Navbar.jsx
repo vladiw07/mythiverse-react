@@ -44,9 +44,7 @@ export const Navbar = () => {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-        <li>
-          <Link to="/services">About</Link>
-        </li>
+        
         <li>
           <div
             style={activeSubmenu === "guides" ? { backgroundColor: "black" } : {}}
@@ -74,7 +72,7 @@ export const Navbar = () => {
           >
             Menu
             <ul className={activeSubmenu === "menu" ? "submenu open2" : "submenu"}>
-              <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/home">Home</Link></li>
+              <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/">Home</Link></li>
               <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/about">About</Link></li>
               <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/Newsletter">Newsletter</Link></li>
               <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/Contact">Contact</Link></li>

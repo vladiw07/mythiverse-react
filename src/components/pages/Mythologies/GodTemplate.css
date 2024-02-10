@@ -1,0 +1,36 @@
+.godTemplate{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 610px;
+    margin: 0 auto;
+}
+h1, p, header{
+    padding-bottom: 30px;
+}
+.imageWithText{
+    width: 610px;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 6px;
+    cursor: pointer;
+}
+.imageWithTextWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.imageWithTextWrapper p{
+    word-wrap: break-word;    
+    width: 610px;
+    color: rgba(0, 0, 0, 0.646);
+}

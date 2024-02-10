@@ -56,15 +56,28 @@ body{
     justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
+    
+  
 }
-
+.border-bottom-div{
+    width: 100%;
+    height: 7px;
+    background: linear-gradient(to left, #0400ff, #00e5ff,#0400ff);
+    position: relative;
+    bottom: 110px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .firstSubImage {
     width:350px;
     height: 464px;
-    
+    border-radius: 20px;
     background-repeat: no-repeat !important;
     background-size: contain !important;
-    margin: -150px auto !important;
+    margin: auto !important;
+    position: relative;
+    background-position-x:1px !important;
+    bottom: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Gods-section {
     margin: 0 auto;
@@ -73,6 +86,11 @@ body{
     justify-content: center; 
     margin-bottom: 200px;
     text-align: center;
+    
+}
+.Gods-section *{
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .Gods-section header{
     font-size: 2rem;
@@ -110,14 +128,26 @@ body{
     margin: 0 auto;
 }
 
-.godsUl li {
+.godsUl li{
     cursor: pointer;
     margin-left: 0px;
     margin-right: 0px;
     transition: all 0.3s ease-in-out;
     text-decoration: underline;
     text-decoration-color: rgb(48, 48, 48);
+    color: black;
 }
+.GodLink{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.GodLink:hover{
+    color: rgb(0, 61, 246);
+    text-decoration-color: #ff0000;
+}
+
+
+
 .godsUl li:hover{
     color: rgb(0, 61, 246);
     text-decoration-color: #ff0000;
