@@ -1,6 +1,6 @@
 import React from 'react'
-import '../GodTemplate.css'
-import ImagePlusTextComponent from '../ImagePlusTextComponent'
+import './GodTemplate.css'
+import ImagePlusTextComponent from './ImagePlusTextComponent'
 import athenaImage1 from './images/athenaImage1.avif';
 import athenaImage2 from './images/athenaImage2.avif';
 import athenaImage3 from './images/athenaImage3.avif';
@@ -11,7 +11,7 @@ import athenaImage7 from './images/athenaImage7.png';
 import athenaImage8 from './images/athena8.avif';
 import athenaImage9 from './images/athena9.avif';
 import athenaImage10 from './images/athena10.avif';
-import TextSectionTemplate from '../TextSectionTemplate';
+import TextSectionTemplate from './TextSectionTemplate';
 
 function athenaTemplate() {
   return (

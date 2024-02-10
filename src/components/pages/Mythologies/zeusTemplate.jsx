@@ -1,6 +1,6 @@
 import React from 'react'
-import TextSectionTemplate from '../TextSectionTemplate';
-import ImagePlusTextComponent from '../ImagePlusTextComponent'
+import TextSectionTemplate from './TextSectionTemplate';
+import ImagePlusTextComponent from './ImagePlusTextComponent'
 
 
 
