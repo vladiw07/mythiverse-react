@@ -13,12 +13,13 @@ body{
     background-position: 70% !important;
     position: relative;
     bottom: 23px;
-    color: #fff;
+    font-weight: 1000;
     padding: 40px 20px;
     border-width: 0 0 7px 0;
     border-style: solid;
     border-image: linear-gradient(to left, #0400ff, #00e5ff,#0400ff) 30;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    filter: grayscale(0.6);
 }
 
 .discover-button {
@@ -47,6 +48,7 @@ body{
     max-width: 50%; 
     text-wrap: wrap;
     overflow-wrap: break-word; 
+    
 }
 .god-section-plus-image-wrapper{
     display: flex;
@@ -117,8 +119,8 @@ body{
     text-decoration-color: rgb(48, 48, 48);
 }
 .godsUl li:hover{
-    color: rgb(255, 204, 0);
-    text-decoration-color: #000000;
+    color: rgb(0, 61, 246);
+    text-decoration-color: #ff0000;
 }
 @media screen and (max-width: 393px){
     .imageStart{

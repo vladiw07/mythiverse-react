@@ -3,20 +3,27 @@ import "./MythologyTemplate.css";
 
 
 
-function MythologyTemplate( { imageUrl, secondImageUrl, header, firstText, godsHeader, godText, godLiElements } ) {
+function MythologyTemplate( { imageUrl, secondImageUrl, header, topTextColor,  firstText, godsHeader, godText, godLiElements } ) {
+  const scrollToContent = () => {
+    const content = document.getElementById('firstSubImage'); 
+    content.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
     <div>
-    <div style={{ background: `url(${imageUrl})` }} className='imageStart'>
+    <div style={{ color:topTextColor, background: `url(${imageUrl})` }} className='imageStart'>
     <h1>{header}</h1>
+    <div style={{ color:topTextColor}}>
         {firstText}
-        <button className="discover-button">Discover More</button>
+        </div>
+        <button onClick={scrollToContent} className="discover-button">Discover More</button>
     </div>
     
 
     <div className="god-section-plus-image-wrapper">
       
-      <div style={{ background: `url(${secondImageUrl})` }} className='firstSubImage'></div>
+      <div id='firstSubImage' style={{ background: `url(${secondImageUrl})` }} className='firstSubImage'></div>
      
       
     <div className="Gods-section">
