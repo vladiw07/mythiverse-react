@@ -1,5 +1,7 @@
+body{
+    background-color: aliceblue;
+}
 .imageStart {
-    
     text-align: center;
     margin: 0 auto;
     width: 100% !important;
@@ -13,16 +15,110 @@
     bottom: 23px;
     color: #fff;
     padding: 40px 20px;
+    border-width: 0 0 7px 0;
+    border-style: solid;
+    border-image: linear-gradient(to left, #0400ff, #00e5ff,#0400ff) 30;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
-
-
+.discover-button {
+    background-color: #ffdd00;
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    bottom: 100px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.4s ease-in-out;
+    
+}
+.discover-button:hover{
+    background-color: #d2b701;
+}
 .imageStart p {
     text-shadow: 1px 1px 1px rgba(81, 67, 21, 0.8);
-    margin: 0px auto 200px auto; /* Center paragraphs horizontally */
-    max-width: 80%; /* Set maximum width for paragraphs */
+    margin: 0px auto 200px auto; 
+    max-width: 50%; 
+    text-wrap: wrap;
+    overflow-wrap: break-word; 
+}
+.god-section-plus-image-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.firstSubImage {
+    width:350px;
+    height: 464px;
     
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin: -150px auto !important;
+}
+.Gods-section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 200px;
+    text-align: center;
+}
+.Gods-section header{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Gods-section p{
+    font-size: 1.3rem;
+    
+}
+.Gods-section button{
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.428);
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+.Gods-section button:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.Gods-section button::after{
+    padding-left: 20px;
+    font-size: 20px;
+    content: '>';
+}
+.godsUl {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0px;
+    justify-content: center;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.godsUl li {
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: rgb(48, 48, 48);
+}
+.godsUl li:hover{
+    color: rgb(255, 204, 0);
+    text-decoration-color: #000000;
 }
 @media screen and (max-width: 393px){
     .imageStart{
@@ -40,3 +136,33 @@
     }
 }
 
+@media screen and (max-width: 747px){
+    .Gods-section p{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 1065px){
+    .firstSubImage{
+        
+    }
+}
+
+@media screen and (max-width: 765px){
+    .god-section-plus-image-wrapper{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 411px){
+    .god-section-plus-image-wrapper{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 498px){
+    .firstSubImage {
+        width:262px;
+        height: 348px;
+        
+    }
+}
