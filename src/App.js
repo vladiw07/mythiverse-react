@@ -3,9 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import "./styles.css";
 import { Navbar } from "./components/Navbar";
 
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
-import Home from './components/pages/Home'
+import About from './components/pages/main/About'
+import Contact from './components/pages/main/Contact'
+import Home from "./components/pages/main/Home";
 import GreekMythology from "./components/pages/Mythologies/GreekMythology";
 
 

@@ -11,53 +11,39 @@
 .imageStart {
     background: url(/public/images/greekMythology.avif);
     width: 100%;
-    height: 100%; /* Adjusted to fill the container */
-    position: relative; /* Change back to relative positioning */
+    height: 100%; 
+    position: relative; 
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     z-index: 1;
     background-position: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
-    margin: 0; /* Remove default margin */
+    padding-bottom: 150px;
 }
 
-.greekMythology-page-wrapper {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column;
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+
+
+.imageStart h1 {
+    font-size: 2.9vw;
+    position: relative;
+    
+}
+.imageStart p{
+    font-size: 1.8vw;
+    position: relative;
+    
 }
 
-.h1-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 1;
-    color: rgb(255, 255, 255);
-}
-
-.textArea {
-    position: absolute;
-}
-
-.imageStart h1, .imageStart p {
-    margin: 0;
-    font-size: 1.5vw;
-}
-.imageStart h1{
-    font-size: 2.5vw;
+@media (max-height: 466px) {
+    .imageStart{
+        padding-bottom: 60px;
+    }
 }

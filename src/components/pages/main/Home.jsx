@@ -1,5 +1,5 @@
 import React from 'react'
-import WelcomeSection from '../WelcomeSection'
+import WelcomeSection from '../../WelcomeSection'
 
 
 function Home() {
