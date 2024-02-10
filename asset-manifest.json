@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.9ea57b01.css",
-    "main.js": "/mythiverse-react/static/js/main.f2a2d5c3.js",
+    "main.css": "/mythiverse-react/static/css/main.8486a544.css",
+    "main.js": "/mythiverse-react/static/js/main.ab90d25e.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
     "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
     "static/media/chineseMythology.jpg": "/mythiverse-react/static/media/chineseMythology.e3ff3359414dae831b31.jpg",
     "static/media/mainMythology.jpg": "/mythiverse-react/static/media/mainMythology.11965a9177a8d1495ad0.jpg",
     "static/media/celticMythology.jpg": "/mythiverse-react/static/media/celticMythology.aa18b64f6de4ba2b8206.jpg",
+    "static/media/athenaImage7.png": "/mythiverse-react/static/media/athenaImage7.003dbf7e54506b3946b2.png",
     "static/media/greekMythology.jpg": "/mythiverse-react/static/media/greekMythology.22e3ed6004e57429e950.jpg",
     "static/media/japaneseMythology.jpg": "/mythiverse-react/static/media/japaneseMythology.51466168f6a82e1f6bee.jpg",
     "static/media/japaneseGodsImage.avif": "/mythiverse-react/static/media/japaneseGodsImage.f8c46a53d4ed7c5d95f5.avif",
@@ -20,13 +21,20 @@
     "static/media/chineseGodsImage.avif": "/mythiverse-react/static/media/chineseGodsImage.de8f143d81e2cd34ce75.avif",
     "static/media/athenaImage2.avif": "/mythiverse-react/static/media/athenaImage2.9180fe2f1c41a4d6f2c7.avif",
     "static/media/norseGodsImage.avif": "/mythiverse-react/static/media/norseGodsImage.909f108087bcefaee118.avif",
+    "static/media/athena10.avif": "/mythiverse-react/static/media/athena10.67fb5bcd3eab3d9837fb.avif",
+    "static/media/athenaImage3.avif": "/mythiverse-react/static/media/athenaImage3.95b342750aeb9dd1a86f.avif",
+    "static/media/athenaImage4.avif": "/mythiverse-react/static/media/athenaImage4.3e422940b2ae020f4c0a.avif",
+    "static/media/athena8.avif": "/mythiverse-react/static/media/athena8.93be759a36dc4341af63.avif",
     "static/media/athenaImage1.avif": "/mythiverse-react/static/media/athenaImage1.75b6599a021d408ede31.avif",
+    "static/media/athena9.avif": "/mythiverse-react/static/media/athena9.46cbf126c89ba4978928.avif",
+    "static/media/athenaImage6.avif": "/mythiverse-react/static/media/athenaImage6.9a5176ea4952903d1b8e.avif",
+    "static/media/athena5.avif": "/mythiverse-react/static/media/athena5.72c2cf9e13e1b74152a7.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.9ea57b01.css.map": "/mythiverse-react/static/css/main.9ea57b01.css.map",
-    "main.f2a2d5c3.js.map": "/mythiverse-react/static/js/main.f2a2d5c3.js.map"
+    "main.8486a544.css.map": "/mythiverse-react/static/css/main.8486a544.css.map",
+    "main.ab90d25e.js.map": "/mythiverse-react/static/js/main.ab90d25e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ea57b01.css",
-    "static/js/main.f2a2d5c3.js"
+    "static/css/main.8486a544.css",
+    "static/js/main.ab90d25e.js"
   ]
 }
