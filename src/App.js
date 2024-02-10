@@ -10,10 +10,6 @@ import GreekMythology from "./components/pages/Mythologies/GreekMythology";
 
 
 
-
-
-
-const styles = {header: "text-xl bg-red-800"};
 function App() {
   return (
     <div className="App">

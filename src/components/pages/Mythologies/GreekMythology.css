@@ -24,7 +24,7 @@
     align-items: center;
     text-align: center;
     color: #fff;
-    padding-bottom: 150px;
+    padding: 0px 40px;
 }
 
 
@@ -32,18 +32,37 @@
 
 
 .imageStart h1 {
-    font-size: 2.9vw;
+    font-size: 2.9rem;
     position: relative;
     
 }
 .imageStart p{
-    font-size: 1.8vw;
+    font-size: 1.8rem;
     position: relative;
     
 }
 
-@media (max-height: 466px) {
-    .imageStart{
-        padding-bottom: 60px;
+@media (max-width: 726px) {
+    .imageStart p{
+        font-size: 1.3rem;    
+    }
+    .imageStart h1 {
+        font-size: 2.5rem;  
+    }
+}
+@media (max-width: 445px) {
+    .imageStart p{
+        font-size: 1.1rem;    
+    }
+    .imageStart h1 {
+        font-size: 2.2rem;  
+    }
+}
+@media (max-width: 354px) {
+    .imageStart p{
+        font-size: 0.8rem;    
+    }
+    .imageStart h1 {
+        font-size: 2rem;  
     }
 }
