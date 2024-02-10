@@ -1,24 +1,45 @@
-.welcome-page{
+.welcome-page {
+    background: url(/public/images/mainMythology.jpg);
     text-align: center;
-    background-color: aliceblue;
-}
-.welcome-page button{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%; /* Set height to 100% to fill the container */
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     position: relative;
+    bottom: 23px;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+
+
+.welcome-page button {
     padding: 10px 30px;
-    font-size: 20px;
+    font-size: 2rem;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: rgb(0, 106, 255);
     color: #fff;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    
-}
-.welcome-page p{
-    text-shadow: 1px 1px 1px rgba(81,67,21,0.8);
-    padding: 0px 40px;
 }
 
-.welcome-page button:hover{
+.welcome-page p {
+    text-shadow: 1px 1px 1px rgba(81, 67, 21, 0.8);
+    margin: 0 auto; /* Center paragraphs horizontally */
+    max-width: 80%; /* Set maximum width for paragraphs */
+}
+
+.welcome-page button:hover {
     background-color: rgb(0, 56, 135);
+}
+
+
+@media screen and (max-width: 1593px){
+    .welcome-page{
+        font-size: 1rem;
+    }
 }

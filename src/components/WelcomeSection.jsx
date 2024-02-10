@@ -3,6 +3,7 @@ import './WelcomeSection.css'
 
 function WelcomeSection() {
   return (
+    <div className="welcome-page-wrapper">
     <div className="welcome-page">
       <h1>Welcome to Mythiverse</h1>
       <p>Embark on a journey through the realms of ancient myths and legends.</p>
@@ -11,6 +12,7 @@ function WelcomeSection() {
       <p>Whether you're a seasoned scholar or a curious newcomer, there's always something new to uncover in the rich tapestry of mythological lore.</p>
       <p>So, grab your virtual torch and join us as we delve into the timeless stories that continue to shape our collective imagination.</p>
       <button className="explore-button">Explore Now</button>
+    </div>
     </div>
   )
 }
