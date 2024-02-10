@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.7c7b3bd0.css",
-    "main.js": "/mythiverse-react/static/js/main.68f9235e.js",
+    "main.css": "/mythiverse-react/static/css/main.cbd3b7ec.css",
+    "main.js": "/mythiverse-react/static/js/main.2595c7aa.js",
+    "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
+    "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
+    "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
+    "static/media/chineseMythology.jpg": "/mythiverse-react/static/media/chineseMythology.e3ff3359414dae831b31.jpg",
     "static/media/mainMythology.jpg": "/mythiverse-react/static/media/mainMythology.11965a9177a8d1495ad0.jpg",
+    "static/media/celticMythology.jpg": "/mythiverse-react/static/media/celticMythology.aa18b64f6de4ba2b8206.jpg",
     "static/media/greekMythology.jpg": "/mythiverse-react/static/media/greekMythology.22e3ed6004e57429e950.jpg",
+    "static/media/japaneseMythology.jpg": "/mythiverse-react/static/media/japaneseMythology.51466168f6a82e1f6bee.jpg",
+    "static/media/japaneseGodsImage.avif": "/mythiverse-react/static/media/japaneseGodsImage.f8c46a53d4ed7c5d95f5.avif",
+    "static/media/hinduGodsImage.avif": "/mythiverse-react/static/media/hinduGodsImage.f2044b92fa114c39fcc6.avif",
+    "static/media/egyptianGodsImage.avif": "/mythiverse-react/static/media/egyptianGodsImage.f64a0c95c0721d0e2b43.avif",
     "static/media/greekGodsImage.jpg": "/mythiverse-react/static/media/greekGodsImage.f825701b42b82d718c5b.jpg",
     "static/media/norseMythology.jpg": "/mythiverse-react/static/media/norseMythology.2fbd81b0556c0958fb02.jpg",
+    "static/media/aztecGodsImage.avif": "/mythiverse-react/static/media/aztecGodsImage.0622e75557cfd375ee24.avif",
+    "static/media/celticGodsImage.avif": "/mythiverse-react/static/media/celticGodsImage.fcef7397dc237653dfd5.avif",
+    "static/media/chineseGodsImage.avif": "/mythiverse-react/static/media/chineseGodsImage.de8f143d81e2cd34ce75.avif",
     "static/media/norseGodsImage.avif": "/mythiverse-react/static/media/norseGodsImage.909f108087bcefaee118.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.7c7b3bd0.css.map": "/mythiverse-react/static/css/main.7c7b3bd0.css.map",
-    "main.68f9235e.js.map": "/mythiverse-react/static/js/main.68f9235e.js.map"
+    "main.cbd3b7ec.css.map": "/mythiverse-react/static/css/main.cbd3b7ec.css.map",
+    "main.2595c7aa.js.map": "/mythiverse-react/static/js/main.2595c7aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c7b3bd0.css",
-    "static/js/main.68f9235e.js"
+    "static/css/main.cbd3b7ec.css",
+    "static/js/main.2595c7aa.js"
   ]
 }
