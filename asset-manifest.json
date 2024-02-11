@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.ddabb1f2.css",
+    "main.css": "/mythiverse-react/static/css/main.8fa08b8d.css",
     "main.js": "/mythiverse-react/static/js/main.6d0dd8d4.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
@@ -92,11 +92,11 @@
     "static/media/cronus.jpg": "/mythiverse-react/static/media/cronus.202ffe63eadf8643d324.jpg",
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.ddabb1f2.css.map": "/mythiverse-react/static/css/main.ddabb1f2.css.map",
+    "main.8fa08b8d.css.map": "/mythiverse-react/static/css/main.8fa08b8d.css.map",
     "main.6d0dd8d4.js.map": "/mythiverse-react/static/js/main.6d0dd8d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddabb1f2.css",
+    "static/css/main.8fa08b8d.css",
     "static/js/main.6d0dd8d4.js"
   ]
 }
