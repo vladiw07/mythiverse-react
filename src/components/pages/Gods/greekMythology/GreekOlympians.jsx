@@ -33,8 +33,8 @@ function GreekOlympians() {
         <GreekOlympian path='/zeus' title='Zeus' text='The “cloud-gatherer”—king of the Greek gods and lord of the skies' image={`url(${zeusImage})`} />
         <GreekOlympian path='/athena' title='Athena' text='Greek goddess of wisdom, craftwork, and war' image={`url(${AthenaImage})`} />
         <GreekOlympian path='/poseidon' title='Poseidon' text='Lord of all waters; Greek god of the seas, sailors, and earthquakes' image={`url(${PoseidonImage})`} />
-        <GreekOlympian title='Aphrodite' text='Greek goddess of love, passion, and procreation' image={`url(${AphroditeImage})`} />
-        <GreekOlympian title='Hermes' text='Greek messenger god; patron of travelers, merchants, and thieves' image={`url(${HermesImage})`} />
+        <GreekOlympian path='/aphrodite' title='Aphrodite' text='Greek goddess of love, passion, and procreation' image={`url(${AphroditeImage})`} />
+        <GreekOlympian path='/hermes' title='Hermes' text='Greek messenger god; patron of travelers, merchants, and thieves' image={`url(${HermesImage})`} />
         <GreekOlympian title='Demeter' text='Greek goddess of family, fertility, and agriculture' image={`url(${DemeterImage})`} />
         <GreekOlympian title='Apollo' text='Beloved divine patron of music, poetry, and artistic inspiration' image={`url(${ApolloImage})`} />
         <GreekOlympian title='Artemis' text='Greek goddess of the hunt; guardian of wild places, maidens, and mothers' image={`url(${ArtemisImage})`} />

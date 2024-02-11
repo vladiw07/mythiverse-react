@@ -3,7 +3,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    word-break: break-all;
+    word-break: keep-all;
+    overflow-wrap: break-word; /* Add overflow-wrap property */
+    hyphens: auto;
 }
 .wrapper{
     display: flex;
@@ -39,6 +41,7 @@ p{
     margin: 0px 10px 0px 10px;
     margin-bottom: 8px;
     
+    
 }
 .imageWithTextWrapper {
     display: flex;
@@ -51,6 +54,7 @@ p{
     word-wrap: break-word;    
     width: 610px;
     color: rgba(0, 0, 0, 0.646);
+    padding-right: 40px;
 }
 
 

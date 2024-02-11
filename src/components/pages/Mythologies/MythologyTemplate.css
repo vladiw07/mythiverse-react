@@ -1,5 +1,8 @@
 body{
-   
+    
+    overflow-wrap:break-word; /* Break long words */
+    word-break:keep-all;
+    hyphens: auto;
 }
 .imageStart {
     text-align: center;

@@ -1,10 +1,11 @@
-
-.greekOlympians{
+.greekOlympians {
     margin: 0 auto;
     text-align: center;
     width: 800px;
-    word-break:keep-all;
-}
+    word-break: keep-all;
+    overflow-wrap: break-word; /* Add overflow-wrap property */
+    hyphens: auto;
+  }
 .olympian-list{
     display: flex;
     justify-content: center;

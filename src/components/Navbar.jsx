@@ -35,6 +35,7 @@ export const Navbar = () => {
 
   return (
     <nav ref={navRef}>
+     
       <Link to="/" className="title">
         Mythiverse
       </Link>

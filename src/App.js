@@ -45,6 +45,9 @@ import NephthysTemplate from "./components/pages/EgyptianMythology/nephthysTempl
 import OsirisTemplate from "./components/pages/EgyptianMythology/osirisTemplate";
 import IsisTemplate from "./components/pages/EgyptianMythology/isisTemplate";
 import HorusTemplate from "./components/pages/EgyptianMythology/horusTemplate";
+import Aphrodite from "./components/pages/Olympians/Aphrodite";
+import Hermes from "./components/pages/Olympians/Hermes";
+
 
 
 
@@ -52,20 +55,27 @@ import HorusTemplate from "./components/pages/EgyptianMythology/horusTemplate";
 
 
 function App() {
-  function ScrollToTop() {
+  
+  const ScrollToTop = () => {
     const { pathname } = useLocation();
   
     useEffect(() => {
-      window.scrollTo(0, 0);
+      const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
+      
+      scrollToTop();
     }, [pathname]);
   
-    return null; 
-  }
+    return null;
+  };
   return (
     <div className="App">
+      
       <Navbar />
       <ScrollToTop />
       <Routes>
+        
       <Route 
       path="/greek-mythology" 
       element={<MythologyTemplate 
@@ -77,7 +87,7 @@ function App() {
       godsHeader={'Greek Gods'} godText={<p>The Greek gods ruled over every aspect of Hellenic existence—from war to love, from childbirth to the afterlife. Commonly depicted in human form, they were capricious deities who demanded worship and sacrifice  to stave off misfortune and ruin.</p>} 
       godLiElements={<ul className="godsUl"><li><Link className="GodLink" to="/greekOlympians">Greek Olympians</Link></li><li><Link className="GodLink" to="/athena">Athena</Link></li><li><Link className="GodLink" to="/poseidon">Poseidon</Link></li><li><Link className="GodLink" to="/greekTitans">Greek Titans</Link></li><li><Link className="GodLink" to="/zeus">Zeus</Link></li><li><Link className="GodLink" to="/prometheus">Prometheus</Link></li></ul>} />} 
       />
-
+    
       <Route 
       path="/norse-mythology" 
       element={<MythologyTemplate 
@@ -184,6 +194,8 @@ function App() {
         <Route path="/greekTitans" element={<GreekTitans />} />
         <Route path="/poseidon" element={<Poseidon />} />
         <Route path="/prometheus" element={<Prometheus />} />
+        <Route path="/aphrodite" element={<Aphrodite />} />
+        <Route path="/hermes" element={<Hermes />} />
 
         <Route path="/odin" element={<OdinTemplate />} />
         <Route path="/loki" element={<LokiTemplate />} />
@@ -200,6 +212,7 @@ function App() {
         <Route path="/horus" element={<HorusTemplate />} />
 
       </Routes>
+      
      
     </div>
   );
