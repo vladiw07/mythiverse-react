@@ -3,7 +3,7 @@
     margin: 0 auto;
     text-align: center;
     width: 800px;
-    word-break: break-all;
+    word-break:keep-all;
 }
 .olympian-list{
     display: flex;
@@ -30,40 +30,45 @@
     position: relative;
     top: 20px;
 }
-.first-olympian-flex-section button{
+.buttonLink{
     width: 36%;
     border-radius: 20px;
     background-color: transparent;
     border: 2px solid rgba(0, 0, 0, 0.26);
     transition: all 0.4s ease-in-out;
     cursor: pointer;
-    margin-top: 100px;
     font-size: 1.5rem;
+    text-align: center;
+    
+    
 }
-.first-olympian-flex-section button::after {
-    padding-left: 10px;
-    font-family: "Poppins", sans-serif;
-    content: '>';
-    color: rgba(0, 0, 0, 0.343);
-    transition: all 0.4s ease-in-out;
+.buttonLink:hover{
+    border: 2px solid rgb(0, 0, 0);
 }
-.first-olympian-flex-section button:hover::after {
-    color: black;
+.buttonLink button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
-.first-olympian-flex-section button:hover{
-    border: 2px solid rgba(0, 0, 0, 0.81);
-}
+
+
+
+
+
 .first-olympian-flex-section p{
     text-align: start;
     width: 550px;
 }
 .olympianImage{
-    /* background: url(./GreekOlympiansImages/zeus.jpg); */
     width: 256px;
     height: 340px;
     border-radius: 20px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 6px;
+}
+.button-link-wrapper{
+    margin: 0 auto;
 }
 
 
@@ -74,13 +79,16 @@
     }
 }
 @media screen and (max-width: 853px){
+    .buttonLink{
+        margin: 0 auto;
+    }
+    
     .olympian-list olympian{
         flex-direction: column;
         justify-content: center;
-    }
-    .first-olympian-flex-section button{
         margin: 0 auto;
     }
+    
     .first-olympian-flex-section header{
         margin: 0 auto;
     }

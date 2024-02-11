@@ -1,17 +1,19 @@
 import React from 'react'
 import './GreekOlympians.css'
+import { Link } from 'react-router-dom'
 
-function GreekOlympian( { title, text, image } ) {
+function GreekOlympian( { title, text, image, path, display, textAlign, margin, } ) {
   return (
     <>
             <olympian>
-          <div className="first-olympian-flex-section">
+          <div style={{margin: `${margin}`, textAlign: `${textAlign}`}} className="first-olympian-flex-section">
           <header>{title}</header>
-          <p>{text}</p>
-          <button>View</button>
-          
+          <p style={{textAlign: `${textAlign}`}}>{text}</p>
+            
+              <Link style={{margin: margin}} className='buttonLink' to={path}><button>View</button></Link>
+            
           </div>
-          <div style={{background: image}} className="olympianImage"></div>
+          <div style={{background: image, display: `${display}`} } className="olympianImage"></div>
           
             </olympian>
             
