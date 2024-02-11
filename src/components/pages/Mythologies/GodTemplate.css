@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .godTemplate{
     text-align: center;
     display: flex;
@@ -52,7 +55,7 @@ p{
 }
 .imageWithTextWrapper p{
     word-wrap: break-word;    
-    width: 610px;
+    
     color: rgba(0, 0, 0, 0.646);
     padding-right: 40px;
 }
