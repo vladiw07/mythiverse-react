@@ -1,5 +1,5 @@
 import React from 'react'
-import AthenaTemplate from '../../Mythologies/athenaTemplate'
+import AthenaTemplate from '../../Mythologies/GreekTemplates/athenaTemplate'
 
 function Athena() {
   return (

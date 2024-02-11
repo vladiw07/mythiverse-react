@@ -30,6 +30,12 @@ import Poseidon from "./components/pages/Gods/greekMythology/Poseidon";
 import Prometheus from "./components/pages/Gods/greekMythology/Prometheus";
 import GreekTitans from "./components/pages/Gods/greekMythology/GreekTitans";
 import GreekOlympians from "./components/pages/Gods/greekMythology/GreekOlympians";
+import OdinTemplate from "./components/pages/NorseMythology/GodsTemplates/odinTemplate";
+import LokiTemplate from "./components/pages/NorseMythology/GodsTemplates/lokiTemplate";
+import FriggTemplate from "./components/pages/NorseMythology/GodsTemplates/friggTemplate";
+import FreyaTemplate from "./components/pages/NorseMythology/GodsTemplates/freyaTemplate";
+import ThorTemplate from "./components/pages/NorseMythology/GodsTemplates/thorTemplate";
+import BaldurTemplate from "./components/pages/NorseMythology/GodsTemplates/baldurTemplate";
 
 
 
@@ -63,7 +69,7 @@ function App() {
       firstText={<p>Norse mythology is the compilation of the stories, religious practices, and myths of the ancient Nordic people. These texts span a period of time beginning in Norse paganism and continuing through the medieval era, during which most of Scandinavia converted to Christianity.</p>} 
       godsHeader={'Norse Gods'}
       godText={<p>The Norse gods and goddesses are the array of deities honored by ancient Nordic worshipers. They primarily came from two different tribes, the Aesir and the Vanir, but were united in their efforts to fight the jötnar, a tribe of giants dwelling in another realm of the world tree Yggdrasil.</p>}
-      godLiElements={<ul className="godsUl"><li>Odin</li><li>Loki</li><li>Frigg</li><li>Freya</li><li>Thor</li><li>Baldur</li></ul>} />} 
+      godLiElements={<ul className="godsUl"><li><Link to='/odin' className="GodLink">Odin</Link></li><li><Link to='/loki' className="GodLink">Loki</Link></li><li><Link to='/frigg' className="GodLink">Frigg</Link></li><li><Link to='/freya' className="GodLink">Freya</Link></li><li><Link to='/thor' className="GodLink">Thor</Link></li><li><Link to='/baldur' className="GodLink">Baldur</Link></li></ul>} />} 
       />
 
       <Route 
@@ -159,6 +165,13 @@ function App() {
         <Route path="/greekTitans" element={<GreekTitans />} />
         <Route path="/poseidon" element={<Poseidon />} />
         <Route path="/prometheus" element={<Prometheus />} />
+
+        <Route path="/odin" element={<OdinTemplate />} />
+        <Route path="/loki" element={<LokiTemplate />} />
+        <Route path="/frigg" element={<FriggTemplate />} />
+        <Route path="/freya" element={<FreyaTemplate />} />
+        <Route path="/thor" element={<ThorTemplate />} />
+        <Route path="/baldur" element={<BaldurTemplate />} />
 
       </Routes>
      

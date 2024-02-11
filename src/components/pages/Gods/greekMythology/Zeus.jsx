@@ -1,6 +1,7 @@
 import React from 'react'
-import GodTemplate from '../../Mythologies/athenaTemplate'
-import ZeusTemplate from '../../Mythologies/zeusTemplate'
+import ZeusTemplate from '../../Mythologies/GreekTemplates/zeusTemplate'
+
+
 
 
 function Zeus() {
