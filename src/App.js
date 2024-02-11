@@ -3,6 +3,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import "./styles.css";
 import { Navbar } from "./components/Navbar";
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import About from './components/pages/main/About'
 import Contact from './components/pages/main/Contact'
 import Home from "./components/pages/main/Home";
@@ -36,6 +39,12 @@ import FriggTemplate from "./components/pages/NorseMythology/GodsTemplates/frigg
 import FreyaTemplate from "./components/pages/NorseMythology/GodsTemplates/freyaTemplate";
 import ThorTemplate from "./components/pages/NorseMythology/GodsTemplates/thorTemplate";
 import BaldurTemplate from "./components/pages/NorseMythology/GodsTemplates/baldurTemplate";
+import AnubisTemplate from "./components/pages/EgyptianMythology/anubisTemplate";
+import RaTemplate from "./components/pages/EgyptianMythology/raTemplate";
+import NephthysTemplate from "./components/pages/EgyptianMythology/nephthysTemplate";
+import OsirisTemplate from "./components/pages/EgyptianMythology/osirisTemplate";
+import IsisTemplate from "./components/pages/EgyptianMythology/isisTemplate";
+import HorusTemplate from "./components/pages/EgyptianMythology/horusTemplate";
 
 
 
@@ -43,9 +52,19 @@ import BaldurTemplate from "./components/pages/NorseMythology/GodsTemplates/bald
 
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null; 
+  }
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Routes>
       <Route 
       path="/greek-mythology" 
@@ -82,7 +101,7 @@ function App() {
       firstText={<p>Egyptian mythology focuses on the fundamental order of the universe, explaining the patterns of the natural world through divine actions. Of particular importance are the creation myths, the constant struggle against disorder, and the cycles of death and rebirth.</p>} 
       godsHeader={'Egyptian Gods'}
       godText={<p>Egyptian gods and goddesses were incarnations of both natural phenomena, such as the sun, and social phenomena, like knowledge. Egypt itself was ruled by a pharaoh who claimed to be the gods’ representative on earth, and who acted as a mediator between mankind and the divine.</p>}
-      godLiElements={<ul className="godsUl"><li>Anubis</li><li>Ra</li><li>Nephthys</li><li>Osiris</li><li>Isis</li><li>Horus</li></ul>} />} 
+      godLiElements={<ul className="godsUl"><li><Link to='/anubis' className="GodLink">Anubis</Link></li><li><Link to='/ra' className="GodLink">Ra</Link></li><li><Link to='/nephthys' className="GodLink">Nephthys</Link></li><li><Link to='/osiris' className="GodLink">Osiris</Link></li><li><Link to='/isis' className="GodLink">Isis</Link></li><li><Link to='/horus' className="GodLink">Horus</Link></li></ul>} />} 
       />
 
       <Route 
@@ -172,6 +191,13 @@ function App() {
         <Route path="/freya" element={<FreyaTemplate />} />
         <Route path="/thor" element={<ThorTemplate />} />
         <Route path="/baldur" element={<BaldurTemplate />} />
+
+        <Route path="/anubis" element={<AnubisTemplate />} />
+        <Route path="/ra" element={<RaTemplate />} />
+        <Route path="/nephthys" element={<NephthysTemplate />} />
+        <Route path="/osiris" element={<OsirisTemplate />} />
+        <Route path="/isis" element={<IsisTemplate />} />
+        <Route path="/horus" element={<HorusTemplate />} />
 
       </Routes>
      
