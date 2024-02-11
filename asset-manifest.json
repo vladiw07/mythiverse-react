@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.e352b75f.css",
-    "main.js": "/mythiverse-react/static/js/main.d17860c8.js",
+    "main.css": "/mythiverse-react/static/css/main.f3b3c1f2.css",
+    "main.js": "/mythiverse-react/static/js/main.c28f5d93.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
     "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
@@ -48,29 +48,42 @@
     "static/media/freya1.avif": "/mythiverse-react/static/media/freya1.d92338f8b2a481e01190.avif",
     "static/media/zeus2.avif": "/mythiverse-react/static/media/zeus2.f63a1e918f29ed5a04d3.avif",
     "static/media/ra2.avif": "/mythiverse-react/static/media/ra2.30f511a954a5c8370aab.avif",
+    "static/media/Artemis.jpg": "/mythiverse-react/static/media/Artemis.4f7fd125e89a8148f2d0.jpg",
+    "static/media/Dionysus.jpg": "/mythiverse-react/static/media/Dionysus.98e9df27f20cb3c81219.jpg",
     "static/media/zeus5.avif": "/mythiverse-react/static/media/zeus5.207654f2f2c6e734f742.avif",
     "static/media/athena9.avif": "/mythiverse-react/static/media/athena9.46cbf126c89ba4978928.avif",
     "static/media/horus1.avif": "/mythiverse-react/static/media/horus1.81ee22a5f8dfbb75daef.avif",
+    "static/media/athena.jpg": "/mythiverse-react/static/media/athena.7e986372ef8815017b6c.jpg",
+    "static/media/Hera.jpg": "/mythiverse-react/static/media/Hera.9550303fb69bbb9894c7.jpg",
     "static/media/poseidon3.avif": "/mythiverse-react/static/media/poseidon3.30d5912b242f8260d934.avif",
     "static/media/athenaImage6.avif": "/mythiverse-react/static/media/athenaImage6.9a5176ea4952903d1b8e.avif",
     "static/media/poseidon1.avif": "/mythiverse-react/static/media/poseidon1.e7085ae12f37970e9117.avif",
     "static/media/baldur1.avif": "/mythiverse-react/static/media/baldur1.4989be56900bc20ec594.avif",
+    "static/media/Apollo.jpg": "/mythiverse-react/static/media/Apollo.159d9c6792014c0911e0.jpg",
+    "static/media/zeus.jpg": "/mythiverse-react/static/media/zeus.df80d4972337852f0d63.jpg",
     "static/media/poseidon2.avif": "/mythiverse-react/static/media/poseidon2.e0f9a2644c743d2d905f.avif",
     "static/media/anubis1.avif": "/mythiverse-react/static/media/anubis1.7f9839162948257e9d1e.avif",
+    "static/media/Hermes.jpg": "/mythiverse-react/static/media/Hermes.486c68199307005f4ef4.jpg",
     "static/media/thor3.avif": "/mythiverse-react/static/media/thor3.2c93316218861e0a62ea.avif",
     "static/media/osiris1.avif": "/mythiverse-react/static/media/osiris1.5fd5e4dec14eed716263.avif",
+    "static/media/Aphrodite.jpg": "/mythiverse-react/static/media/Aphrodite.97b1b3f067dddc9c7bff.jpg",
+    "static/media/Hestia.jpg": "/mythiverse-react/static/media/Hestia.ebd6a8a5c5323385b1cf.jpg",
+    "static/media/Demeter.jpg": "/mythiverse-react/static/media/Demeter.f35fced3d948647abece.jpg",
+    "static/media/Hephaestus.jpg": "/mythiverse-react/static/media/Hephaestus.41ad3b4f8e54eef9639b.jpg",
+    "static/media/Poseidon.jpg": "/mythiverse-react/static/media/Poseidon.728c0136212c16894016.jpg",
     "static/media/athena5.avif": "/mythiverse-react/static/media/athena5.72c2cf9e13e1b74152a7.avif",
     "static/media/zeus3.avif": "/mythiverse-react/static/media/zeus3.e9dc1c5b043361cf72bd.avif",
     "static/media/zeus4.avif": "/mythiverse-react/static/media/zeus4.01a2a4042a621ac76ea3.avif",
     "static/media/anubis3.avif": "/mythiverse-react/static/media/anubis3.e16794d9eb1efe1aa172.avif",
     "static/media/isis1.avif": "/mythiverse-react/static/media/isis1.4cf997b33b7a3a9764a9.avif",
+    "static/media/Ares.jpg": "/mythiverse-react/static/media/Ares.4f332ef2582757b3e08a.jpg",
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.e352b75f.css.map": "/mythiverse-react/static/css/main.e352b75f.css.map",
-    "main.d17860c8.js.map": "/mythiverse-react/static/js/main.d17860c8.js.map"
+    "main.f3b3c1f2.css.map": "/mythiverse-react/static/css/main.f3b3c1f2.css.map",
+    "main.c28f5d93.js.map": "/mythiverse-react/static/js/main.c28f5d93.js.map"
   },
   "entrypoints": [
-    "static/css/main.e352b75f.css",
-    "static/js/main.d17860c8.js"
+    "static/css/main.f3b3c1f2.css",
+    "static/js/main.c28f5d93.js"
   ]
 }
