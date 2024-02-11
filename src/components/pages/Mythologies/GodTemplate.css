@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    word-break: break-all;
 }
 .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 610px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -22,6 +22,11 @@ p{
     text-align: left;
     padding: 0px 10px;
     margin-bottom: 13px;
+    
+}
+.imageWithTextWrapper p {
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.646);
 }
 .imageWithText{
     width: 95%;
@@ -35,11 +40,12 @@ p{
     margin-bottom: 8px;
     
 }
-.imageWithTextWrapper{
+.imageWithTextWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    width: 95%; /* Adjust the width as needed */
 }
 .imageWithTextWrapper p{
     word-wrap: break-word;    
@@ -47,3 +53,9 @@ p{
     color: rgba(0, 0, 0, 0.646);
 }
 
+
+@media screen and (min-width: 620px){
+    .wrapper{
+        width: 610px;
+    }
+}
