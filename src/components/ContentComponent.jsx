@@ -6,7 +6,7 @@ function ContentComponent({ contentLi }) {
   
   const toggleContent = () => {
     setContentVariable(!contentVariable);
-    const h1Element = document.querySelector('h1');
+    const h1Element = document.querySelector('h5');
     h1Element.classList.toggle('rotate'); 
   };
 
@@ -20,7 +20,7 @@ function ContentComponent({ contentLi }) {
   return (
     <>
       <ul className='ContentUl'>
-        <h1 onClick={toggleContent}>Contents</h1>
+        <h5 onClick={toggleContent}>Contents</h5>
         {contentLi.map((item, index) => (
           <li key={index} className={contentVariable ? 'visible' : ''} onClick={() => scrollToContent(index)}>
             {item.title}
