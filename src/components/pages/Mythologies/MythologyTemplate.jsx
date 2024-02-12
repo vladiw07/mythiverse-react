@@ -34,7 +34,7 @@ function MythologyTemplate( { imageUrl, secondImageUrl, header, topTextColor,  f
       {godLiElements}
       </div>
     </div>
-    <div className="border-bottom-div">.</div>
+    
     </div>
    
     

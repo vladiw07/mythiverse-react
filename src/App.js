@@ -47,6 +47,10 @@ import IsisTemplate from "./components/pages/EgyptianMythology/isisTemplate";
 import HorusTemplate from "./components/pages/EgyptianMythology/horusTemplate";
 import Aphrodite from "./components/pages/Olympians/Aphrodite";
 import Hermes from "./components/pages/Olympians/Hermes";
+import Demeter from "./components/pages/Olympians/Demeter";
+import Apollo from "./components/pages/Olympians/Apollo";
+import Dionysus from "./components/pages/Olympians/Dionysus";
+import Artemis from "./components/pages/Olympians/Artemis";
 
 
 
@@ -196,6 +200,10 @@ function App() {
         <Route path="/prometheus" element={<Prometheus />} />
         <Route path="/aphrodite" element={<Aphrodite />} />
         <Route path="/hermes" element={<Hermes />} />
+        <Route path="/demeter" element={<Demeter />} />
+        <Route path="/apollo" element={<Apollo />} />
+        <Route path="/artemis" element={<Artemis />} />
+        <Route path="/dionysus" element={<Dionysus />} />
 
         <Route path="/odin" element={<OdinTemplate />} />
         <Route path="/loki" element={<LokiTemplate />} />

@@ -35,14 +35,14 @@ function GreekOlympians() {
         <GreekOlympian path='/poseidon' title='Poseidon' text='Lord of all waters; Greek god of the seas, sailors, and earthquakes' image={`url(${PoseidonImage})`} />
         <GreekOlympian path='/aphrodite' title='Aphrodite' text='Greek goddess of love, passion, and procreation' image={`url(${AphroditeImage})`} />
         <GreekOlympian path='/hermes' title='Hermes' text='Greek messenger god; patron of travelers, merchants, and thieves' image={`url(${HermesImage})`} />
-        <GreekOlympian title='Demeter' text='Greek goddess of family, fertility, and agriculture' image={`url(${DemeterImage})`} />
-        <GreekOlympian title='Apollo' text='Beloved divine patron of music, poetry, and artistic inspiration' image={`url(${ApolloImage})`} />
-        <GreekOlympian title='Artemis' text='Greek goddess of the hunt; guardian of wild places, maidens, and mothers' image={`url(${ArtemisImage})`} />
-        <GreekOlympian title='Dionysus' text='Greek god of wine, revelry, music, and dance' image={`url(${DionysusImage})`} />
-        <GreekOlympian title='Hera' text='Queen of the Greek gods, who reigned over women, family, and marriage' image={`url(${HeraImage})`} />
-        <GreekOlympian title='Hephaestus' text='Craftsman of the Greek gods, master of metallurgy, and patron of artisans' image={`url(${HephaestusImage})`} />
-        <GreekOlympian title='Hestia' text='Greek goddess of the hearth and home' image={`url(${HestiaImage})`} />
-        <GreekOlympian title='Ares' text='Greek god of rage, aggression, and the most violent aspects of war' image={`url(${AresImage})`} />
+        <GreekOlympian path='/demeter' title='Demeter' text='Greek goddess of family, fertility, and agriculture' image={`url(${DemeterImage})`} />
+        <GreekOlympian path='/apollo' title='Apollo' text='Beloved divine patron of music, poetry, and artistic inspiration' image={`url(${ApolloImage})`} />
+        <GreekOlympian path='/artemis' title='Artemis' text='Greek goddess of the hunt; guardian of wild places, maidens, and mothers' image={`url(${ArtemisImage})`} />
+        <GreekOlympian path='/dionysus' title='Dionysus' text='Greek god of wine, revelry, music, and dance' image={`url(${DionysusImage})`} />
+        <GreekOlympian path='/hera' title='Hera' text='Queen of the Greek gods, who reigned over women, family, and marriage' image={`url(${HeraImage})`} />
+        <GreekOlympian path='/hephaestus' title='Hephaestus' text='Craftsman of the Greek gods, master of metallurgy, and patron of artisans' image={`url(${HephaestusImage})`} />
+        <GreekOlympian path='/hestia' title='Hestia' text='Greek goddess of the hearth and home' image={`url(${HestiaImage})`} />
+        <GreekOlympian path='/ares' title='Ares' text='Greek god of rage, aggression, and the most violent aspects of war' image={`url(${AresImage})`} />
       </div>
     </div>
   )
