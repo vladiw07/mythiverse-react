@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  h1::after {
+    content: ">";
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+    position: relative;
+    left: 20px;
+  }
+  
+  h1.rotate::after {
+    transform: rotate(90deg); /* Rotate the pseudo-element */
+  }
+  
+  .ContentUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 90px;
+    left: 50px;
+  }
+  
+  .ContentUl.visible {
+    height: auto; /* Set height to auto when content is visible */
+  }
+  
+  .ContentUl li {
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    color: rgb(113, 113, 113);
+    font-size: 15px;
+    margin-top: 4px;
+    overflow:hidden; /* Hide overflowing text */
+    white-space: normal; /* Allow text to wrap */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.213);
+    max-width: 200px;
+    
+  }
+  
+  .ContentUl li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .ContentUl li {
+    display: none; /* Initially hide the li elements */
+  }
+  
+  .ContentUl li.visible {
+    display: block; /* Show the li elements when the visible class is applied */
+  }
+  
+  @media screen and (max-width: 1151px) {
+    .ContentUl {
+      position: relative;
+      top: 0px;
+      margin-bottom: 20px;
+      left: 0px;
+      margin: 0 auto;
+    }
+  }
+  
