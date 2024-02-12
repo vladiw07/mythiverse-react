@@ -51,6 +51,10 @@ import Demeter from "./components/pages/Olympians/Demeter";
 import Apollo from "./components/pages/Olympians/Apollo";
 import Dionysus from "./components/pages/Olympians/Dionysus";
 import Artemis from "./components/pages/Olympians/Artemis";
+import Hera from "./components/pages/Olympians/Hera";
+import Hephaestus from "./components/pages/Olympians/Hephaestus";
+import Hestia from "./components/pages/Olympians/Hestia";
+import Ares from "./components/pages/Olympians/Ares";
 
 
 
@@ -204,6 +208,10 @@ function App() {
         <Route path="/apollo" element={<Apollo />} />
         <Route path="/artemis" element={<Artemis />} />
         <Route path="/dionysus" element={<Dionysus />} />
+        <Route path="/hera" element={<Hera />} />
+        <Route path="/hephaestus" element={<Hephaestus />} />
+        <Route path="/hestia" element={<Hestia />} />
+        <Route path="/ares" element={<Ares />} />
 
         <Route path="/odin" element={<OdinTemplate />} />
         <Route path="/loki" element={<LokiTemplate />} />
