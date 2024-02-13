@@ -5,6 +5,7 @@ import ImagePlusTextComponent from '../Mythologies/ImagePlusTextComponent'
 import ra1 from './egyptianGodSectionImages/ra1.avif'
 import ra2 from './egyptianGodSectionImages/ra2.avif'
 import ContentComponent from '../../ContentComponent'
+import TableComponent from '../../TableComponent'
 
 function RaTemplate() {
   return (
@@ -19,7 +20,7 @@ function RaTemplate() {
       <div className='godTemplate'>
         <h2>Egyptian God</h2>
         <h1>Ra</h1>
-
+        
         
         <TextSectionTemplate header={<h3 id='content_0'>Overview</h3>} text={<><p>As creator and sun god, Ra was a vital part of the Egyptian pantheon. Throughout countless dynasties, Ra was a constant figure of worship whose role shifted as newer gods were incorporated into the state religion.</p></>} />
         <ImagePlusTextComponent image={ra1} text='This falcon-headed statuette of Ra-Horakhty (c. 1069–525 BCE) combines the attributes of Ra with those of Horus.' />

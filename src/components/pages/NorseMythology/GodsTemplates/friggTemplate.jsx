@@ -3,12 +3,14 @@ import ImagePlusTextComponent from '../../Mythologies/ImagePlusTextComponent'
 import TextSectionTemplate from '../../Mythologies/TextSectionTemplate'
 import frig1 from './friggImages/frigg1.avif'
 import ContentComponent from '../../../ContentComponent'
+import Table from '../../../Tables'
 
 function FriggTemplate() {
   return (
     <div className='wrapper'>
       <ContentComponent contentLi={[{ title: 'Overview' }, 
       { title: 'Etymology' }, 
+      { title: 'Family Tree' }, 
       { title: 'Attributes' }, 
       { title: 'Family' }, 
       { title: 'Mythology' }, 
@@ -23,11 +25,19 @@ function FriggTemplate() {
 
         <TextSectionTemplate header={<h3 id='content_1'>Etymology</h3>} text={<><p>The name “Frigg” was derived from the Proto-Germanic *frijaz, meaning “beloved, dear.” The English day of the week "Friday," may be related to the goddess by way of the Old English word Frīġedæġ, meaning “Frigg’s day.”</p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_2'>Attributes</h3>} text={<><p>As wife of Odin, Frigg was the undisputed queen of the Norse gods. In art from the nineteenth and early twentieth centuries, Frigg was often depicted sitting on a throne or holding a commanding pose.</p> <p>Frigg dwelled in Fensalir, a watery realm that likely took the form of a bog, marsh, or wetlands. She owned an ashen box called an eski, which the goddess Fulla toted around for her; the box’s contents were unknown. She was also known to have a set of falcon plumes that the gods, notably Loki, used to shapeshift into bird form.</p></>} />
+        <h3 id='content_2' style={{fontSize:'30px', position:'relative', top:'40px'}}>Family Tree</h3>
+          <Table BigHeader={[ 'Consorts', 'Children']} 
+          miniHeader1={['Husband', 'Sons',]} 
+          miniHeader2={['', '']} 
+          information1={['Odin', 'Baldur, Hermod', '']}
+          information2={['']}
+          />
 
-        <TextSectionTemplate header={<h3 id='content_3'>Family</h3>} text={<><p>Frigg’s parentage remains unknown. Later in life, Frigg married Odin, with whom she had Hermod and Baldur, the shining deity known as the wisest of the Aesir gods.</p></>} />
+        <TextSectionTemplate header={<h3 id='content_3'>Attributes</h3>} text={<><p>As wife of Odin, Frigg was the undisputed queen of the Norse gods. In art from the nineteenth and early twentieth centuries, Frigg was often depicted sitting on a throne or holding a commanding pose.</p> <p>Frigg dwelled in Fensalir, a watery realm that likely took the form of a bog, marsh, or wetlands. She owned an ashen box called an eski, which the goddess Fulla toted around for her; the box’s contents were unknown. She was also known to have a set of falcon plumes that the gods, notably Loki, used to shapeshift into bird form.</p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_4'>Mythology</h3>} text={<><p>Frigg played a prominent role in two Norse myths, featured in the Grímnismál of the Poetic Edda and the Gylfaginning of the Prose Edda, respectively. Both tales painted Frigg as both a maternal figure and a ruler in her own right.</p></>} />
+        <TextSectionTemplate header={<h3 id='content_4'>Family</h3>} text={<><p>Frigg’s parentage remains unknown. Later in life, Frigg married Odin, with whom she had Hermod and Baldur, the shining deity known as the wisest of the Aesir gods.</p></>} />
+
+        <TextSectionTemplate header={<h3 id='content_5'>Mythology</h3>} text={<><p>Frigg played a prominent role in two Norse myths, featured in the Grímnismál of the Poetic Edda and the Gylfaginning of the Prose Edda, respectively. Both tales painted Frigg as both a maternal figure and a ruler in her own right.</p></>} />
 
 
       </div>

@@ -6,6 +6,7 @@ import thor1 from './thorImages/thor1.avif'
 import thor2 from './thorImages/thor2.avif'
 import thor3 from './thorImages/thor3.avif'
 import ContentComponent from '../../../ContentComponent'
+import Table from '../../../Tables'
 
 function ThorTemplate() {
   return (
@@ -13,6 +14,7 @@ function ThorTemplate() {
       <ContentComponent contentLi={[{ title: 'Overview' }, 
       { title: 'Etymology' }, 
       { title: 'Attributes' }, 
+      { title: 'Family Tree' }, 
       { title: 'Family' }, 
       { title: 'Mythology' }, 
       { title: 'Origins' }, 
@@ -30,13 +32,21 @@ function ThorTemplate() {
 
         <TextSectionTemplate header={<h3 id='content_2'>Attributes</h3>} text={<><p>Above all things, Thor was brave, strong, and fierce. Thor, in truth, loved fighting and rarely passed on an opportunity to engage in it.</p> <p>Thor wore a magical belt called Megingjörd (literally “power belt”) that was said to double his already substantial strength. Thor’s chief was weapon was Mjölnir (“grinder” or “crusher”), a terrible war hammer crafted by dwarves in their subterranean caverns. Besides spitting thunderbolts and laying waste to obstacles and enemies, Mjölnir could also resurrect the dead—though apparently only in certain cases. In order to wield his mighty hammer, Thor wore iron gloves named Járngreipr (“iron grippers”). While these three items were the ones most associated with the thunder god, Thor also possessed a staff known as Grídarvölr; he seldom used it, however.</p> <p>Thor kept company with his two servants, the twins Thjálfi and Röskva. He rode in a chariot pulled by the goats Tanngrisnir and Tanngnjóstr. Remarkably, Thor regularly slaughtered the goats and ate them, only to resurrect them with Mjölnir so that they could continue to pull his chariot—and fill his stomach!</p> <p>Thor’s realm was the field Þrúðvangr in Asgard, where he built his oaken hall, Bilskirnir. The building was said to be the largest ever erected and featured a grand total of five hundred and forty rooms.</p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_3'>Family</h3>} text={<><p>Thor was the son of Odin, the chief of the Aesir deities and highest of all gods. While his mother was variously known as Jord (“earth”), Hlödyn, or Fjörgyn, in all cases she was identified as a giant, making Thor half-jötunn. Thor’s heritage provided an interesting contrast with his noted enmity for the jötnar. By way of Odin, Thor had many prominent half-brothers including Baldur, Váli, and Vidarr. Other half-brothers included Tyr, Heimdall, Bragi, and Hodr.</p></>} />
+        <h3 id='content_3' style={{fontSize:'30px', position:'relative', top:'40px'}}>Family Tree</h3>
+          <Table BigHeader={[ 'Parents', 'Siblings', 'Consorts', 'Children']} 
+          miniHeader1={['Father', 'Brothers', 'Wife', 'Daughter']} 
+          miniHeader2={['Mother', '', 'Lover', 'Son']} 
+          information1={['Odin', 'Baldur, Heimdall, Tyr, Váli, Vidarr, Bragi, Hodr', 'Sif', 'Thudr']}
+          information2={['Jord', '', 'Jarnsaxa', 'Magni']}
+          />
+
+        <TextSectionTemplate header={<h3 id='content_4'>Family</h3>} text={<><p>Thor was the son of Odin, the chief of the Aesir deities and highest of all gods. While his mother was variously known as Jord (“earth”), Hlödyn, or Fjörgyn, in all cases she was identified as a giant, making Thor half-jötunn. Thor’s heritage provided an interesting contrast with his noted enmity for the jötnar. By way of Odin, Thor had many prominent half-brothers including Baldur, Váli, and Vidarr. Other half-brothers included Tyr, Heimdall, Bragi, and Hodr.</p></>} />
         <ImagePlusTextComponent boxShadow={'none'} image={thor2} text="Wood carved illustration from Olaus Magnus's A Description of the Northern Peoples (published in Rome, 1555). The illustration pictures the three main gods of the Norse: Frigg on the left, Thor seated on the throne in the center, and an armored Odin on the right. The wood carving shows how much Norse mythology was altered through the centuries. Here it is Thor, the most popular of Norse deities, and not Odin who is depicted as a lord" />
         <TextSectionTemplate header={<h3></h3>} text={<><p>In the fullness of his manhood, Thor married golden-haired Sif, a goddess associated with faith, family, and fertility. With Sif, Thor had a daughter known as Thudr, who may have become a valkyrie. Outside his marriage, Thor had a regular lover, Járnsaxa. With his jötunn lover, Thor had a son named Magni (“strength”). He also had many casual lovers and one-night stands. At least one of these encounters produced a son, Módi (“courage”), though the boy’s mother was not identified in any surviving Norse texts.</p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_4'>Mythology</h3>} text={<><p>Probably the most adventurous of the Norse deities, Thor had a mythology full of exploits and escapades. Such adventures included battling with foul monsters, journeying to distant lands, and even dressing as a woman.</p></>} />
+        <TextSectionTemplate header={<h3 id='content_5'>Mythology</h3>} text={<><p>Probably the most adventurous of the Norse deities, Thor had a mythology full of exploits and escapades. Such adventures included battling with foul monsters, journeying to distant lands, and even dressing as a woman.</p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_5'>Origins</h3>} text={<><p>Norse mythology seldom provided details about the childhoods and early lives of its main deities. Thor followed this pattern, and emerged in the sources as a full-fledged god with his entire repertoire of powers at his disposal. Nevertheless, a few historical details served to illuminate to Thor’s emergence as a god of the Germanic people.</p></>} />
+        <TextSectionTemplate header={<h3 id='content_6'>Origins</h3>} text={<><p>Norse mythology seldom provided details about the childhoods and early lives of its main deities. Thor followed this pattern, and emerged in the sources as a full-fledged god with his entire repertoire of powers at his disposal. Nevertheless, a few historical details served to illuminate to Thor’s emergence as a god of the Germanic people.</p></>} />
         <ImagePlusTextComponent boxShadow={'none'} image={thor3} text="Marble figurine of Thor resting on his hammer (ca. 1827-1829) by Hermann Ernst Freund" />
         <TextSectionTemplate header={<h3></h3>} text={<><p>The first mentions of Thor were found in Roman sources. There, Thor was identified as Jupiter or Jove, the Roman god of strength who hurled lightning bolts (Jupiter was, in turn, based on the Greek god Zeus). The Romans commonly referred to the gods of foreigners by the names of the Romans deities who most nearly approximated their characteristics. The Romans were right to note the similarities. A deeper look at European, Near Eastern, and even South Asian religions has revealed remarkable similarities between Thor and other thunder-hurling deities, such as the Celtic god Taranis and the Vedic deity Indra. Whatever his origin in Norse myth, Thor appeared historically as a local variant of an archetypal Indo-European deity whose origins could be traced back to the second millennium BCE.</p></>} />
 

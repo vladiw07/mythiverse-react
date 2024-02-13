@@ -5,11 +5,13 @@ import baldur1 from './baldurImages/baldur1.avif'
 import baldur2 from './baldurImages/baldur2.webp'
 
 import ContentComponent from '../../../ContentComponent'
+import Table from '../../../Tables'
 function BaldurTemplate() {
   return (
     <div className='wrapper'>
       <ContentComponent contentLi={[{ title: 'Overview' }, 
       { title: 'Etymology' }, 
+      { title: 'Family Tree' }, 
       { title: 'Attributes' }, 
       { title: 'Family' }, 
       
@@ -23,9 +25,18 @@ function BaldurTemplate() {
 
         <TextSectionTemplate header={<h3 id='content_1'>Etymology</h3>} text={<><p>“Baldur” was originally thought to come from an Old Norse word, baldr, meaning “bold,” or “brave.” It could be, however, that the descriptor baldr was named after the god, rather than the god being named after it. Modern scholars have suggested that the name was rooted in the proto Indo-European word bhel-, meaning “white.” Words for “white” were commonly used to describe Baldur and other Norse deities. Such words were often translated as “bright” or “shining,”as their meaning referred not only to the color, but to the god’s associated qualities—brilliance, beauty, and clarity—as well.</p></>} />
         <ImagePlusTextComponent boxShadow={'none'} image={baldur2} />
-        <TextSectionTemplate header={<h3 id='content_2'>Attributes</h3>} text={<><p>Baldur’s chief attributes were his fairness, beauty, and likeability. He possessed a great ship called Hringhorni (meaning “ship with a circle on its stem,”) which was said to be the greatest ship ever constructed. Upon Baldur’s death, the ship was turned into a massive funeral pyre for his body and set to drift downriver.</p> <p></p></>} />
 
-        <TextSectionTemplate header={<h3 id='content_3'>Family</h3>} text={<><p>Baldur was the son of Odin, chief of the Aesir and highest of all gods, and Frigg, a goddess of wisdom with the power of foresight. He had a brother, Hodr, as well as several half-brothers by way of Odin. These half-brothers included Thor, Vidarr, Tyr, Heimdall, Hermod, and Bragi. Another half-brother, Váli, was conceived by Odin and the giantess Rindr after Baldur’s death in order to avenge him.</p> <p>Baldur married the goddess Nanna, and together they had a son named, Forseti, a god associated with peace and justice. Once grown, Forseti established a hall for himself called Glitnir, where he, like his father, settled grievances and reconciled foes.</p></>} />
+        <h3 id='content_2' style={{fontSize:'30px', position:'relative', top:'40px'}}>Family Tree</h3>
+          <Table BigHeader={[ 'Parents', 'Siblings', 'Consorts', 'Children']} 
+          miniHeader1={['Father', 'Brothers', 'Wife', 'Son']} 
+          miniHeader2={['Mother', '', '', '']} 
+          information1={['Odin', 'Heimdall, Thor, Tyr, Váli, Vidarr, Bragi, Hodr', 'Nanna', 'Forseti']}
+          information2={['Frigg', '', '', '']}
+          />
+
+        <TextSectionTemplate header={<h3 id='content_3'>Attributes</h3>} text={<><p>Baldur’s chief attributes were his fairness, beauty, and likeability. He possessed a great ship called Hringhorni (meaning “ship with a circle on its stem,”) which was said to be the greatest ship ever constructed. Upon Baldur’s death, the ship was turned into a massive funeral pyre for his body and set to drift downriver.</p> <p></p></>} />
+
+        <TextSectionTemplate header={<h3 id='content_4'>Family</h3>} text={<><p>Baldur was the son of Odin, chief of the Aesir and highest of all gods, and Frigg, a goddess of wisdom with the power of foresight. He had a brother, Hodr, as well as several half-brothers by way of Odin. These half-brothers included Thor, Vidarr, Tyr, Heimdall, Hermod, and Bragi. Another half-brother, Váli, was conceived by Odin and the giantess Rindr after Baldur’s death in order to avenge him.</p> <p>Baldur married the goddess Nanna, and together they had a son named, Forseti, a god associated with peace and justice. Once grown, Forseti established a hall for himself called Glitnir, where he, like his father, settled grievances and reconciled foes.</p></>} />
       </div>
     </div>
   )

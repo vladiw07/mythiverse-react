@@ -1,0 +1,51 @@
+.tableDiv{
+    width: 95%;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.213);
+    border-radius: 7px;
+    text-align: start;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.tableDiv ul{
+    list-style: none;
+}
+.h2{
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+.tableDiv ul li{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.tableDiv ul li section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.bothElementsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+header{
+    padding-bottom: 0px;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    margin-bottom: 20px;
+}
+hr{
+   margin-right: 20px;
+   color: rgba(0, 0, 0, 0.277);
+}
