@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.9135bd11.css",
-    "main.js": "/mythiverse-react/static/js/main.71fa72a8.js",
+    "main.css": "/mythiverse-react/static/css/main.23fcab9e.css",
+    "main.js": "/mythiverse-react/static/js/main.859785ef.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
     "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
@@ -138,11 +138,11 @@
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "static/media/change1.avif": "/mythiverse-react/static/media/change1.7b0b6185746fff4c2b23.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.9135bd11.css.map": "/mythiverse-react/static/css/main.9135bd11.css.map",
-    "main.71fa72a8.js.map": "/mythiverse-react/static/js/main.71fa72a8.js.map"
+    "main.23fcab9e.css.map": "/mythiverse-react/static/css/main.23fcab9e.css.map",
+    "main.859785ef.js.map": "/mythiverse-react/static/js/main.859785ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.9135bd11.css",
-    "static/js/main.71fa72a8.js"
+    "static/css/main.23fcab9e.css",
+    "static/js/main.859785ef.js"
   ]
 }
