@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.23fcab9e.css",
-    "main.js": "/mythiverse-react/static/js/main.859785ef.js",
+    "main.css": "/mythiverse-react/static/css/main.82df6282.css",
+    "main.js": "/mythiverse-react/static/js/main.debd72fc.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
     "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
@@ -32,13 +32,16 @@
     "static/media/aphrodite1.avif": "/mythiverse-react/static/media/aphrodite1.3294710a6c852eef50ff.avif",
     "static/media/norseGodsImage.avif": "/mythiverse-react/static/media/norseGodsImage.909f108087bcefaee118.avif",
     "static/media/athena10.avif": "/mythiverse-react/static/media/athena10.67fb5bcd3eab3d9837fb.avif",
+    "static/media/GreekMortalsImage.avif": "/mythiverse-react/static/media/GreekMortalsImage.d4da907f8715465b10af.avif",
     "static/media/loki2.jpg": "/mythiverse-react/static/media/loki2.f5a4102def8a5dbbdc43.jpg",
     "static/media/Hephaestus1.avif": "/mythiverse-react/static/media/Hephaestus1.6b6f66d41308d3ebc466.avif",
     "static/media/apollo4.avif": "/mythiverse-react/static/media/apollo4.30c1cff683eda40aafb0.avif",
     "static/media/nephthys2.avif": "/mythiverse-react/static/media/nephthys2.370be5eb83138efba07c.avif",
     "static/media/cernunnos1.avif": "/mythiverse-react/static/media/cernunnos1.915b9edabf80a5cc5d30.avif",
+    "static/media/GreekCreaturesImage.avif": "/mythiverse-react/static/media/GreekCreaturesImage.a7c2e6051d1843f349b9.avif",
     "static/media/hera3.avif": "/mythiverse-react/static/media/hera3.07e37a977a1eb1339d0c.avif",
     "static/media/athenaImage3.avif": "/mythiverse-react/static/media/athenaImage3.95b342750aeb9dd1a86f.avif",
+    "static/media/GreekOlympiansImage.avif": "/mythiverse-react/static/media/GreekOlympiansImage.2d5991e97dd9d67cd14b.avif",
     "static/media/apollo3.avif": "/mythiverse-react/static/media/apollo3.c9e3e328db28be59bb10.avif",
     "static/media/thor2.avif": "/mythiverse-react/static/media/thor2.5964b01fa2648ab1e0c3.avif",
     "static/media/hestia4.avif": "/mythiverse-react/static/media/hestia4.5cc82ff7bb0be14bd515.avif",
@@ -138,11 +141,11 @@
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "static/media/change1.avif": "/mythiverse-react/static/media/change1.7b0b6185746fff4c2b23.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.23fcab9e.css.map": "/mythiverse-react/static/css/main.23fcab9e.css.map",
-    "main.859785ef.js.map": "/mythiverse-react/static/js/main.859785ef.js.map"
+    "main.82df6282.css.map": "/mythiverse-react/static/css/main.82df6282.css.map",
+    "main.debd72fc.js.map": "/mythiverse-react/static/js/main.debd72fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.23fcab9e.css",
-    "static/js/main.859785ef.js"
+    "static/css/main.82df6282.css",
+    "static/js/main.debd72fc.js"
   ]
 }
