@@ -73,6 +73,13 @@ import HinduMythologyPage from "./components/pages/AllMythologyMainPages/HinduMy
 import AztecMythologyPage from "./components/pages/AllMythologyMainPages/AztecMythologyPage";
 import JapaneseMythology from "./components/pages/AllMythologyMainPages/JapaneseMythologyPage";
 import JapaneseMythologyPage from "./components/pages/AllMythologyMainPages/JapaneseMythologyPage";
+import Shiva from "./components/pages/HinduMythology/Shiva";
+import Vishnu from "./components/pages/HinduMythology/Vishnu";
+import Ganesha from "./components/pages/HinduMythology/Ganesha";
+import Parvati from "./components/pages/HinduMythology/Parvati";
+import Brahma from "./components/pages/HinduMythology/Brahma";
+import Krishna from "./components/pages/HinduMythology/Krishna";
+import Footer from "./components/Footer";
 
 
 
@@ -100,6 +107,7 @@ function App() {
       
       <Navbar />
       <ScrollToTop />
+      
       <Routes>
         
       <Route path="/greek-mythology" element={<GreekMythologyPage />}/>
@@ -163,8 +171,16 @@ function App() {
         <Route path="/lugh" element={<Lugh />} />
         <Route path="/morrigan" element={<Morrigan />} />
 
+        <Route path="/shiva" element={<Shiva />} />
+        <Route path="/vishnu" element={<Vishnu/>} />
+        <Route path="/ganesha" element={<Ganesha />} />
+        <Route path="/parvati" element={<Parvati />} />
+        <Route path="/brahma" element={<Brahma />} />
+        <Route path="/krishna" element={<Krishna />} />
+
 
       </Routes>
+      <Footer />
       
      
     </div>

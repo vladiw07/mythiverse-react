@@ -12,6 +12,9 @@
     flex-direction: column;
     
 }
+#olympianHeaderName{
+    padding-bottom: 20px;
+}
 .olympian-list olympian{
     display: flex;
     flex-direction: row;

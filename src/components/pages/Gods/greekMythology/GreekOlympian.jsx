@@ -7,7 +7,7 @@ function GreekOlympian( { title, text, image, path, display, textAlign, margin, 
     <>
             <olympian>
           <div style={{margin: `${margin}`, textAlign: `${textAlign}`}} className="first-olympian-flex-section">
-          <header>{title}</header>
+          <header id='olympianHeaderName'>{title}</header>
           <p style={{textAlign: `${textAlign}`}}>{text}</p>
             
               <Link style={{margin: margin}} className='buttonLink' to={path}><button>View</button></Link>

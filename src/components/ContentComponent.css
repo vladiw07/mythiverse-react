@@ -22,9 +22,10 @@ h5 {
     justify-content: center;
     list-style-type: none;
     text-align: center;
-    position: fixed;
+    position:fixed;
     top: 90px;
     left: 50px;
+    
   }
   
   .ContentUl.visible {
@@ -56,9 +57,23 @@ h5 {
   .ContentUl li.visible {
     display: block; /* Show the li elements when the visible class is applied */
   }
+  .content-container {
+    visibility: visible;
+  }
+  
+  .invisible {
+    visibility: hidden;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .ContentUl {
+      display: none;
+    }
+  }
   
   @media screen and (max-width: 1151px) {
     .ContentUl {
+      display: inline-block;
       position: relative;
       top: 0px;
       margin-bottom: 20px;
