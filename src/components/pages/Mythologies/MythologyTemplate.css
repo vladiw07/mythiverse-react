@@ -4,6 +4,10 @@ body{
     word-break:keep-all;
     hyphens: auto;
 }
+.GodsLabel{
+   text-align: center;
+   font-size: 40px;
+}
 .imageStart {
     text-align: center;
     margin: 0 auto;
@@ -125,7 +129,7 @@ body{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 0px;
+    gap: -50px;
     justify-content: center;
     max-width: 600px; 
     margin: 0 auto;
@@ -139,6 +143,7 @@ body{
     text-decoration: underline;
     text-decoration-color: rgb(48, 48, 48);
     color: black;
+    padding-left: 4px;
 }
 .GodLink{
     color: black;
