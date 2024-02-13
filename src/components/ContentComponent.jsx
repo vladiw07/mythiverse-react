@@ -12,7 +12,7 @@ function ContentComponent({ contentLi }) {
 
   const scrollToContent = (index) => {
     const contentElement = document.getElementById(`content_${index}`);
-    const yOffset = -100;
+    const yOffset = -80;
     const y = contentElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
     window.scrollTo({ top: y, behavior: 'smooth' });
   };

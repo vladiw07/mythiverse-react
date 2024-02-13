@@ -2,10 +2,8 @@
 import { Link, Route, Routes } from "react-router-dom";
 import "./styles.css";
 import { Navbar } from "./components/Navbar";
-
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
 import About from './components/pages/main/About'
 import Contact from './components/pages/main/Contact'
 import Home from "./components/pages/main/Home";
@@ -26,7 +24,6 @@ import celticGodsImage from './components/pages/Mythologies/images/celticGodsIma
 import hinduGodsImage from './components/pages/Mythologies/images/hinduGodsImage.avif'
 import aztecGodsImage from './components/pages/Mythologies/images/aztecGodsImage.avif'
 import japaneseGodsImage from './components/pages/Mythologies/images/japaneseGodsImage.avif'
-
 import Zeus from './components/pages/Gods/greekMythology/Zeus';
 import Athena from './components/pages/Gods/greekMythology/Athena';
 import Poseidon from "./components/pages/Gods/greekMythology/Poseidon";
@@ -55,6 +52,18 @@ import Hera from "./components/pages/Olympians/Hera";
 import Hephaestus from "./components/pages/Olympians/Hephaestus";
 import Hestia from "./components/pages/Olympians/Hestia";
 import Ares from "./components/pages/Olympians/Ares";
+import ChangE from "./components/pages/ChineseMythology/Chang'e";
+import Nezha from "./components/pages/ChineseMythology/Nezha";
+import Fuxi from "./components/pages/ChineseMythology/Fuxi";
+import JadeEmperor from "./components/pages/ChineseMythology/JadeEmperor";
+import Nuwa from "./components/pages/ChineseMythology/Nuwa";
+import Guanyin from "./components/pages/ChineseMythology/Guanyin";
+import Brigid from "./components/pages/CelticMythology/Brigid";
+import CuChulainn from "./components/pages/CelticMythology/Cu-Chulainn";
+import Dagda from "./components/pages/CelticMythology/Dagda";
+import Lugh from "./components/pages/CelticMythology/Lugh";
+import Morrigan from "./components/pages/CelticMythology/Morrigan";
+import Cernunnos from "./components/pages/CelticMythology/Cernunnos";
 
 
 
@@ -132,7 +141,7 @@ function App() {
       firstText={<p>Chinese mythology encompasses a wide range of folklore, history, and religious belief across numerous time periods and peoples, including the present day. Many of these myths are intricately bound to philosophy, religion, tradition, and society.</p>} 
       godsHeader={'Chinese Gods'}
       godText={<p>The pantheon of Chinese gods and goddesses is extensive, spanning thousands of years as well as different ethnic groups and changing geographical boundaries. Some of the most enduring deities are Pangu, the Jade Emperor, Guanyin, Sun Wukong, and the Eight Immortals.</p>}
-      godLiElements={<ul className="godsUl"><li>Chang'e</li><li>Nezha</li><li>Fuxi</li><li>Jade Emperor</li><li>Nuwa</li><li>Guanyin</li></ul>} />} 
+      godLiElements={<ul className="godsUl"><li><Link to="/chang'e" className="GodLink">Chang'e</Link></li><li><Link to="/nezha" className="GodLink">Nezha</Link></li><li><Link to="/fuxi" className="GodLink">Fuxi</Link></li><li><Link to="/jadeEmperor" className="GodLink">Jade Emperor</Link></li><li><Link to="/nuwa" className="GodLink">Nuwa</Link></li><li><Link to="/guanyin" className="GodLink">Guanyin</Link></li></ul>} />} 
       />  
 
       <Route 
@@ -145,7 +154,7 @@ function App() {
       firstText={<p>Celtic mythology is the collection of stories and folklore from various ancient Celtic cultures like the Irish, the Welsh, and the Gauls. Many of these myths were suppressed by Roman conquerors, with their first widespread recordings dating from the early medieval period.</p>} 
       godsHeader={'Celtic Gods'}
       godText={<p>The Celtic gods and goddesses are a vast group of deities who were worshipped by the ancient Celtic tribes. Their names and attributes varied between languages and locations, with some deities worshipped by all tribes while others were specific to a particular region or people.</p>}
-      godLiElements={<ul className="godsUl"><li>Morrigan</li><li>Cu Chulainn</li><li>Brigid</li><li>Dagda</li><li>Lugh</li><li>Cernunnos</li></ul>} />} 
+      godLiElements={<ul className="godsUl"><li><Link to="/morrigan" className="GodLink">Morrigan</Link></li><li><Link to="/cuChulainn" className="GodLink">Cu Chulainn</Link></li><li><Link to="/brigid" className="GodLink">Brigid</Link></li><li><Link to="/dagda" className="GodLink">Dagda</Link></li><li><Link to="/lugh" className="GodLink">Lugh</Link></li><li><Link to="/cernunnos" className="GodLink">Cernunnos</Link></li></ul>} />} 
       />
 
       <Route 
@@ -226,6 +235,21 @@ function App() {
         <Route path="/osiris" element={<OsirisTemplate />} />
         <Route path="/isis" element={<IsisTemplate />} />
         <Route path="/horus" element={<HorusTemplate />} />
+
+        <Route path="/chang'e" element={<ChangE />} />
+        <Route path="/nezha" element={<Nezha />} />
+        <Route path="/fuxi" element={<Fuxi />} />
+        <Route path="/jadeEmperor" element={<JadeEmperor />} />
+        <Route path="/nuwa" element={<Nuwa />} />
+        <Route path="/guanyin" element={<Guanyin />} />
+
+        <Route path="/brigid" element={<Brigid />} />
+        <Route path="/cernunnos" element={<Cernunnos/>} />
+        <Route path="/cuChulainn" element={<CuChulainn />} />
+        <Route path="/dagda" element={<Dagda />} />
+        <Route path="/lugh" element={<Lugh />} />
+        <Route path="/morrigan" element={<Morrigan />} />
+
 
       </Routes>
       
