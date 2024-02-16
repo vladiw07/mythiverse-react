@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.63b2f749.css",
-    "main.js": "/mythiverse-react/static/js/main.1a112469.js",
+    "main.css": "/mythiverse-react/static/css/main.6ee4fa79.css",
+    "main.js": "/mythiverse-react/static/js/main.93b0cf89.js",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
     "static/media/egyptianMythology.jpg": "/mythiverse-react/static/media/egyptianMythology.35872c5cf26fb51dfff7.jpg",
     "static/media/hinduMythology.jpg": "/mythiverse-react/static/media/hinduMythology.a46cd535d939d14a087b.jpg",
@@ -91,6 +91,7 @@
     "static/media/zeus5.avif": "/mythiverse-react/static/media/zeus5.207654f2f2c6e734f742.avif",
     "static/media/athena9.avif": "/mythiverse-react/static/media/athena9.46cbf126c89ba4978928.avif",
     "static/media/nuwa1.avif": "/mythiverse-react/static/media/nuwa1.f659a293bb24d1473754.avif",
+    "static/media/Ganesha1.avif": "/mythiverse-react/static/media/Ganesha1.ff2c86167cd76e1bcbf8.avif",
     "static/media/artemis3.avif": "/mythiverse-react/static/media/artemis3.037ed2fa4a31f689cf5b.avif",
     "static/media/horus1.avif": "/mythiverse-react/static/media/horus1.81ee22a5f8dfbb75daef.avif",
     "static/media/Dionysus2.avif": "/mythiverse-react/static/media/Dionysus2.ce7b30f7c986ec5abe27.avif",
@@ -144,11 +145,11 @@
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "static/media/change1.avif": "/mythiverse-react/static/media/change1.7b0b6185746fff4c2b23.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.63b2f749.css.map": "/mythiverse-react/static/css/main.63b2f749.css.map",
-    "main.1a112469.js.map": "/mythiverse-react/static/js/main.1a112469.js.map"
+    "main.6ee4fa79.css.map": "/mythiverse-react/static/css/main.6ee4fa79.css.map",
+    "main.93b0cf89.js.map": "/mythiverse-react/static/js/main.93b0cf89.js.map"
   },
   "entrypoints": [
-    "static/css/main.63b2f749.css",
-    "static/js/main.1a112469.js"
+    "static/css/main.6ee4fa79.css",
+    "static/js/main.93b0cf89.js"
   ]
 }
