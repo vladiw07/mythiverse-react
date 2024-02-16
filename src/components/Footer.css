@@ -35,12 +35,21 @@ footer div{
     position: relative;
     left: -10px;
 }
-.section-2 ul li item{
+.section-2 ul li *{
+    color: black;
+}
+.section-2 ul li header{
+    text-decoration: none;
+}
+.section-2 ul li header:hover{
+    color: rgb(0, 0, 0);
+}
+.section-2 ul li *{
     text-decoration: underline;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.section-2 ul li item:hover{
+.section-2 ul li *:hover{
     color: rgba(0, 0, 0, 0.728);
 }
 #lastFooterElement{

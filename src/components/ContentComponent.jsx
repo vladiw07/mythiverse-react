@@ -18,7 +18,7 @@ function ContentComponent({ contentLi }) {
   };
 
   return (
-    <>
+    <div className='contentCompleteWrapper'>
       <ul className='ContentUl'>
         <h5 onClick={toggleContent}>Contents</h5>
         {contentLi.map((item, index) => (
@@ -27,7 +27,7 @@ function ContentComponent({ contentLi }) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 

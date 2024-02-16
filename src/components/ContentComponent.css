@@ -2,18 +2,26 @@ h5 {
     text-align: center;
     cursor: pointer;
     font-size: 40px;
+    position: sticky;
+    top: 0;
   }
   
   h5::after {
     content: ">";
     display: inline-block;
-    transition: transform 0.3s ease; /* Add transition for smooth animation */
+    transition: transform 0.3s ease; 
     position: relative;
     left: 20px;
   }
   
   h5.rotate::after {
-    transform: rotate(90deg); /* Rotate the pseudo-element */
+    transform: rotate(90deg); 
+  }
+  
+  .contentCompleteWrapper{
+    position: sticky;
+    top: 100px;
+    padding-bottom: 200px;
   }
   
   .ContentUl {
@@ -22,14 +30,16 @@ h5 {
     justify-content: center;
     list-style-type: none;
     text-align: center;
-    position:fixed;
-    top: 90px;
-    left: 50px;
-    
+    position: absolute;
+    right: 700px;
+    width: 500px;
+   
   }
+
+  
   
   .ContentUl.visible {
-    height: auto; /* Set height to auto when content is visible */
+    height: auto; 
   }
   
   .ContentUl li {
@@ -38,10 +48,11 @@ h5 {
     color: rgb(113, 113, 113);
     font-size: 15px;
     margin-top: 4px;
-    overflow:hidden; /* Hide overflowing text */
-    white-space: normal; /* Allow text to wrap */
+    overflow:hidden; 
+    white-space: normal; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.213);
-    max-width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     
   }
   
@@ -51,11 +62,11 @@ h5 {
   }
   
   .ContentUl li {
-    display: none; /* Initially hide the li elements */
+    display: none; 
   }
   
   .ContentUl li.visible {
-    display: block; /* Show the li elements when the visible class is applied */
+    display: block; 
   }
   .content-container {
     visibility: visible;
@@ -65,20 +76,47 @@ h5 {
     visibility: hidden;
   }
 
-  @media screen and (max-width: 1300px) {
-    .ContentUl {
-      display: none;
+  
+  
+
+  @media (max-width: 1606px) {
+    .ContentUl{
+      right: 600px;
     }
   }
-  
-  @media screen and (max-width: 1151px) {
+  @media (max-width: 1406px) {
+    .ContentUl{
+      right: 500px;
+    }
+  }
+  @media (max-width: 1197px) {
     .ContentUl {
-      display: inline-block;
       position: relative;
-      top: 0px;
-      margin-bottom: 20px;
+      top: 100px; 
       left: 0px;
       margin: 0 auto;
+      width: 400px;
+      margin-bottom: 40px;
+    }
+    .contentCompleteWrapper{
+      position: relative;
+      margin: 0 auto;
+      
+    }
+  }
+  @media (max-width: 403px) {
+    .ContentUl {
+      width: 380px;
+    }
+  }
+  @media (max-width: 381px) {
+    .ContentUl {
+      width: 350px;
+    }
+  }
+  @media (max-width: 351px) {
+    .ContentUl {
+      width: 320px;
     }
   }
   

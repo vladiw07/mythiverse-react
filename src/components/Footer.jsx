@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -17,37 +18,37 @@ function Footer() {
             <ul>
                 <li>
                     <header>Company</header>
-                    <item>Home</item>
-                    <item>About</item>
-                    <item>Team</item>
-                    <item>Contribute</item>
-                    <item>Contact</item>
+                    <item><Link>Home</Link></item>
+                    <item><Link>About</Link></item>
+                    <item><Link>Team</Link></item>
+                    <item><Link>Contribute</Link></item>
+                    <item><Link>Contact</Link></item>
                 </li>
 
                 <li>
                     <header>Mythologies</header>
-                    <item>Aztec Mythology</item>
-                    <item>Celtic Mythology</item>
-                    <item>Chinese Mythology</item>
-                    <item>Egyptian Mythology</item>
-                    <item>Greek Mythology</item>
-                    <item>Hindu Mythology</item>
-                    <item>Japanese Mythology</item>
-                    <item>Norse Mythology</item>
-                    <item>Roman Mythology</item>
+                    <Link to="/Aztec-mythology"><item>Aztec Mythology</item></Link>
+                    <Link to="/Celtic-mythology"><item>Celtic Mythology</item></Link>
+                    <Link to="/Chinese-mythology"><item>Chinese Mythology</item></Link>
+                    <Link to="/Egyptian-mythology"><item>Egyptian Mythology</item></Link>
+                    <Link to="/Greek-mythology"><item>Greek Mythology</item></Link>
+                    <Link to="/Hindu-mythology"><item>Hindu Mythology</item></Link>
+                    <Link to="/Japanese-mythology"><item>Japanese Mythology</item></Link>
+                    <Link to="/Norse-mythology"><item>Norse Mythology</item></Link>
+                    
                 </li>
 
                 <li>
                     <header>Pantheons</header>
-                    <item>Aztec Gods</item>
-                    <item>Celtic Gods</item>
-                    <item>Chinese Gods</item>
-                    <item>Egyptian Gods</item>
-                    <item>Greek Gods</item>
-                    <item>Hindu Gods</item>
-                    <item>Japanese Gods</item>
-                    <item>Norse Gods</item>
-                    <item>Roman Gods</item>
+                    <Link><item>Aztec Gods</item></Link>
+                    <Link><item>Celtic Gods</item></Link>
+                    <Link><item>Chinese Gods</item></Link>
+                    <Link><item>Egyptian Gods</item></Link>
+                    <Link><item>Greek Gods</item></Link>
+                    <Link><item>Hindu Gods</item></Link>
+                    <Link><item>Japanese Gods</item></Link>
+                    <Link><item>Norse Gods</item></Link>
+                    <Link><item>Roman Gods</item></Link>
                 </li>
                 
                 

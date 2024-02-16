@@ -15,8 +15,10 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 100px;
+    position: relative;
+    bottom: 200px;
 }
+
 h1, p, header{
     padding-bottom: 24px;
 }
