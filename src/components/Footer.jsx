@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
+    <div id='footerWrapper'>
     <footer>
         <div>
         <section className="section-1">
@@ -59,6 +60,7 @@ function Footer() {
         </div>
         <p id='lastFooterElement' style={{fontSize: '13px'}}>2024 Vladislav Wanli. All Rights Reserved. Privacy Policy.</p>
     </footer>
+    </div>
   )
 }
 

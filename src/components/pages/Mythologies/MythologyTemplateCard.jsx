@@ -1,7 +1,8 @@
 import React from 'react'
 import "./MythologyTemplate.css";
+import { Link } from 'react-router-dom';
 
-function MythologyTemplateCard( { secondImageUrl, godsHeader, godText, godLiElements, header, headerText  } ) {
+function MythologyTemplateCard( {displayState, secondImageUrl, godsHeader, godText, godLiElements, header, headerText, collection  } ) {
   return (
     <>
 <div className="god-section-plus-image-wrapper">
@@ -12,7 +13,7 @@ function MythologyTemplateCard( { secondImageUrl, godsHeader, godText, godLiElem
       <div className="Gods-section">
       <header>{godsHeader}</header>
       {godText}
-      <button>View Collection</button>
+      <Link style={{display: displayState}} to={collection}><button>View Collection</button></Link>
       <h2>Popular Resources</h2>
       {godLiElements}
       </div><h1 className='GodsLabel'>{headerText}</h1>

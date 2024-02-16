@@ -12,7 +12,7 @@ import greekCreaturesImage from './images/GreekCreaturesImage.avif'
 function GreekMythologyPage() {
   return (
     <>
-    <MythologyTemplate 
+    <MythologyTemplate displayState='none'
       imageUrl={greekMythology}
       secondImageUrl={secondGreekGodsImage}
       header={'Ultimate Guide to Greek Mythology'} 
@@ -23,14 +23,14 @@ function GreekMythologyPage() {
       godLiElements={<ul className="godsUl"><li><Link className="GodLink" to="/greekOlympians">Greek Olympians</Link></li><li><Link className="GodLink" to="/athena">Athena</Link></li><li><Link className="GodLink" to="/poseidon">Poseidon</Link></li><li><Link className="GodLink" to="/greekTitans">Greek Titans</Link></li><li><Link className="GodLink" to="/zeus">Zeus</Link></li><li><Link className="GodLink" to="/prometheus">Prometheus</Link></li></ul>} 
       /> 
       
-      <MythologyTemplateCard 
+      <MythologyTemplateCard collection='/greekOlympians'
         godLiElements={<ul className="godsUl"><li><Link className="GodLink" to='/athena'>Athena</Link></li><li><Link className="GodLink" to='/poseidon'>Poseidon</Link></li><li><Link className="GodLink" to='/aphrodite'>Aphrodite</Link></li><li><Link className="GodLink" to='/zeus'>Zeus</Link></li><li><Link className="GodLink" to='/artemis'>Artemis</Link></li></ul>} 
        secondImageUrl={greekOlympiansImage} 
        godText={<p>The twelve Olympians consist of most of the major gods and goddesses of the Greek pantheon. Immortals who ruled their human subjects from on high, they were constantly fighting, fooling, and having affairs with each other, often with dire consequences.</p>} 
        headerText='Greek Olympians' />
 
-        <MythologyTemplateCard 
-        godLiElements={<ul className="godsUl"><li><Link className="GodLink">Greek Heroes</Link></li><li><Link className="GodLink">Atalanta</Link></li><li><Link className="GodLink">Perseus</Link></li><li><Link className="GodLink">Heracles</Link></li><li><Link className="GodLink">Achilles</Link></li></ul>} 
+        <MythologyTemplateCard collection='/greekMortalsPage'
+        godLiElements={<ul className="godsUl"><li><Link className="GodLink">Greek Heroes</Link></li><li><Link className="GodLink">Atalanta</Link></li><li><Link className="GodLink">Perseus</Link></li><li><Link className="GodLink">Heracles</Link></li><li><Link className="GodLink">Achilles</Link></li><li><Link className="GodLink">Odysseus</Link></li></ul>} 
         secondImageUrl={greekMortalsImage} 
         godText={<p>The mortals of Greek mythology included kings and queens, prophets, healers, warriors, and peasants. Unlike gods, all mortals were fated to eventually die, but many of them achieved great fame (or infamy) while they lived.</p>} 
         headerText='Greek Mortals' />

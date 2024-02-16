@@ -4,7 +4,7 @@ import MythologyTemplateCard from './MythologyTemplateCard';
 
 
 
-function MythologyTemplate( { imageUrl, secondImageUrl, header, headerText, topTextColor,  firstText, godsHeader, godText, godLiElements } ) {
+function MythologyTemplate( { imageUrl, displayState, secondImageUrl,collection,  header, headerText, topTextColor,  firstText, godsHeader, godText, godLiElements } ) {
   const scrollToContent = () => {
     const content = document.getElementById('firstSubImage'); 
     content.scrollIntoView({ behavior: 'smooth' });
@@ -22,7 +22,7 @@ function MythologyTemplate( { imageUrl, secondImageUrl, header, headerText, topT
     </div>
     
     
-    <MythologyTemplateCard godLiElements={godLiElements} godText={godText} secondImageUrl={secondImageUrl} headerText='Greek Gods' />
+    <MythologyTemplateCard displayState={displayState} collection={collection} godLiElements={godLiElements} godText={godText} secondImageUrl={secondImageUrl} headerText='Greek Gods' />
 
     
     

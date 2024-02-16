@@ -81,6 +81,8 @@ import Brahma from "./components/pages/HinduMythology/Brahma";
 import Krishna from "./components/pages/HinduMythology/Krishna";
 import Footer from "./components/Footer";
 
+import GreekMortalsPage from "./components/pages/Collections/CollectionPages/GreekMortalsPage";
+
 
 
 
@@ -177,6 +179,8 @@ function App() {
         <Route path="/parvati" element={<Parvati />} />
         <Route path="/brahma" element={<Brahma />} />
         <Route path="/krishna" element={<Krishna />} />
+
+        <Route path="/greekMortalsPage" element={<GreekMortalsPage />} />
 
 
       </Routes>
