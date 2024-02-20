@@ -43,13 +43,13 @@ function Footer() {
                     <header>Pantheons</header>
                     <Link><item>Aztec Gods</item></Link>
                     <Link><item>Celtic Gods</item></Link>
-                    <Link><item>Chinese Gods</item></Link>
+                    <Link to='/chineseGodsPage'><item>Chinese Gods</item></Link>
                     <Link><item>Egyptian Gods</item></Link>
-                    <Link><item>Greek Gods</item></Link>
-                    <Link><item>Hindu Gods</item></Link>
+                    <Link to='/greekOlympians'><item>Greek Olympians</item></Link>
+                    <Link to='/hinduGodsPage'><item>Hindu Gods</item></Link>
                     <Link><item>Japanese Gods</item></Link>
-                    <Link><item>Norse Gods</item></Link>
-                    <Link><item>Roman Gods</item></Link>
+                    <Link to='/norseGodsPage'><item>Norse Gods</item></Link>
+                    
                 </li>
                 
                 

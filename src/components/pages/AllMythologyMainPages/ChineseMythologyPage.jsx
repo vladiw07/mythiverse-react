@@ -11,7 +11,7 @@ import MythologyTemplate from '../Mythologies/MythologyTemplate'
 function ChineseMythologyPage() {
   return (
     <>
-    <MythologyTemplate
+    <MythologyTemplate collection='/chineseGodsPage'
       imageUrl={chineseMythology} 
       secondImageUrl={chineseGodsImage}
       header={'Ultimate Guide to Chinese Mythology'} 

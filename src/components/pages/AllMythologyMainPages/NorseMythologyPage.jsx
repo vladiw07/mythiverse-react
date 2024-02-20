@@ -11,7 +11,7 @@ import MythologyTemplateCard from '../Mythologies/MythologyTemplateCard'
 function NorseMythologyPage() {
   return (
     <>
-    <MythologyTemplate
+    <MythologyTemplate collection='/norseGodsPage'
       imageUrl={norseMythology} 
       secondImageUrl={secondNorseGodsImage}
       header={'Ultimate Guide to Norse Mythology'} 

@@ -10,7 +10,7 @@ import egyptianGodsImage from '../../../components/pages/Mythologies/images/egyp
 function EgyptianMythologyPage() {
   return (
     <>
-    <MythologyTemplate 
+    <MythologyTemplate collection='/egyptianGodsPage'
       imageUrl={egyptianMythology} 
       secondImageUrl={egyptianGodsImage}
       header={'Ultimate Guide to Egyptian Mythology'} 

@@ -6,7 +6,7 @@ import MythologyTemplate from '../Mythologies/MythologyTemplate'
 function JapaneseMythologyPage() {
   return (
     <>
-    <MythologyTemplate 
+    <MythologyTemplate collection='/japaneseGodsPage'
       imageUrl={japaneseMythology} 
       secondImageUrl={japaneseGodsImage}
       header={'Ultimate Guide to Japanese Mythology'} 

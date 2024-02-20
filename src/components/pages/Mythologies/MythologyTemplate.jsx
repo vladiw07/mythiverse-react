@@ -22,7 +22,7 @@ function MythologyTemplate( { imageUrl, displayState, secondImageUrl,collection,
     </div>
     
     
-    <MythologyTemplateCard displayState={displayState} collection={collection} godLiElements={godLiElements} godText={godText} secondImageUrl={secondImageUrl} headerText='Greek Gods' />
+    <MythologyTemplateCard displayState={displayState} collection={collection} godLiElements={godLiElements} godText={godText} secondImageUrl={secondImageUrl} headerText={godsHeader} />
 
     
     

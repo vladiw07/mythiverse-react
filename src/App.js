@@ -83,6 +83,13 @@ import Footer from "./components/Footer";
 
 import GreekMortalsPage from "./components/pages/Collections/CollectionPages/GreekMortalsPage";
 import GreekCreatures from "./components/pages/Collections/CollectionPages/GreekCreatures";
+import NorseGodsPage from "./components/pages/Collections/CollectionPages/NorseGodsPage";
+import EgyptianGodsPage from "./components/pages/Collections/CollectionPages/EgyptianGodsPage";
+import ChineseGodsPage from "./components/pages/Collections/CollectionPages/ChineseGodsPage";
+import CelticGodsPage from "./components/pages/Collections/CollectionPages/CelticGodsPage";
+import HinduGodsPage from "./components/pages/Collections/CollectionPages/hinduGodsPage";
+import AztecGodsPage from "./components/pages/Collections/CollectionPages/AztecGodsPage";
+import JapaneseGodsPage from "./components/pages/Collections/CollectionPages/JapaneseGodsPage";
 
 
 
@@ -183,6 +190,20 @@ function App() {
 
         <Route path="/greekMortalsPage" element={<GreekMortalsPage />} />
         <Route path="/greekCreaturesPage" element={<GreekCreatures />} />
+
+        <Route path="/norseGodsPage" element={<NorseGodsPage />} />
+
+        <Route path="/egyptianGodsPage" element={<EgyptianGodsPage />} />
+
+        <Route path="/chineseGodsPage" element={<ChineseGodsPage />} />
+
+        <Route path="/celticGodsPage" element={<CelticGodsPage />} />
+
+        <Route path="/hinduGodsPage" element={<HinduGodsPage />} />
+
+        <Route path="/aztecGodsPage" element={<AztecGodsPage />} />
+
+        <Route path="/japaneseGodsPage" element={<JapaneseGodsPage />} />
 
 
       </Routes>

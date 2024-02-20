@@ -20,7 +20,7 @@
     gap: 20px;
 }
 .elementsUl #link{
-    background: aliceblue;
+    background: rgb(248, 252, 255);
     color: black;
     text-decoration: none;
     border-radius: 20px;
@@ -34,7 +34,7 @@
     
 }
 .elementsUl #link:hover{
-    background: rgb(188, 194, 200);
+    background: rgb(194, 197, 199);
 }
 .elementsUl #link li p{
     text-align: center;

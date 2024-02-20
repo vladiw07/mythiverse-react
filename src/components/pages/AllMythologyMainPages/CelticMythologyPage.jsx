@@ -7,7 +7,8 @@ import MythologyTemplate from '../Mythologies/MythologyTemplate'
 function CelticMythologyPage() {
   return (
     <>
-    <MythologyTemplate 
+    <MythologyTemplate
+      collection='/celticGodsPage'
       imageUrl={celticMythology} 
       secondImageUrl={celticGodsImage}
       header={'Ultimate Guide to Celtic Mythology'} 

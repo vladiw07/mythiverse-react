@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function HeroGodTemplate( { elementText, image } ) {
+function HeroGodTemplate( { elementText, image, path } ) {
   return (
     <>
-        <Link id='link'>
+        <Link id='link' to={path}>
             <li>
                 <img src={image} alt="" />
                 

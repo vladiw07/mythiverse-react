@@ -6,7 +6,7 @@ import MythologyTemplate from '../Mythologies/MythologyTemplate'
 function AztecMythologyPage() {
   return (
     <>
-    <MythologyTemplate 
+    <MythologyTemplate collection='/aztecGodsPage'
       imageUrl={aztecMythology} 
       secondImageUrl={aztecGodsImage}
       header={'Ultimate Guide to Aztec Mythology'} 
