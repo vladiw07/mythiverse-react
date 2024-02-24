@@ -3,6 +3,7 @@ import hinduMythology from '../../../components/pages/Mythologies/images/hinduMy
 import hinduGodsImage from '../../../components/pages/Mythologies/images/hinduGodsImage.avif'
 import MythologyTemplate from '../Mythologies/MythologyTemplate'
 import { Link } from 'react-router-dom'
+import transition from '../../../Transition/transition'
 
 function HinduMythologyPage() {
   return (
@@ -21,4 +22,4 @@ function HinduMythologyPage() {
   )
 }
 
-export default HinduMythologyPage
+export default transition(HinduMythologyPage)

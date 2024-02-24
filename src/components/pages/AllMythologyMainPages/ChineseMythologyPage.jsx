@@ -6,6 +6,7 @@ import chineseMythology from '../../../components/pages/Mythologies/images/chine
 
 import chineseGodsImage from '../../../components/pages/Mythologies/images/chineseGodsImage.avif'
 import MythologyTemplate from '../Mythologies/MythologyTemplate'
+import transition from '../../../Transition/transition'
 
 
 function ChineseMythologyPage() {
@@ -24,4 +25,4 @@ function ChineseMythologyPage() {
   )
 }
 
-export default ChineseMythologyPage
+export default transition(ChineseMythologyPage)

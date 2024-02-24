@@ -7,6 +7,8 @@ import cronusImage from './GreekTitansImages/cronus.jpg'
 import coeusImage from './GreekTitansImages/coeus.jpg'
 import criusImage from './GreekTitansImages/crius.jpg'
 import hyperionImage from './GreekTitansImages/hyperion.jpg'
+import transition from '../../../../Transition/transition'
+
 
 function GreekTitans() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import transition from '../../../Transition/transition'
 
-function Contact() {
+function Newsletter() {
   return (
     <div>Contact</div>
   )
 }
 
-export default transition(Contact);
+export default transition(Newsletter);

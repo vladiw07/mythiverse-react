@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import celticMythology from '../../../components/pages/Mythologies/images/celticMythology.jpg'
 import celticGodsImage from '../../../components/pages/Mythologies/images/celticGodsImage.avif'
 import MythologyTemplate from '../Mythologies/MythologyTemplate'
+import transition from '../../../Transition/transition'
 
 function CelticMythologyPage() {
   return (
@@ -21,4 +22,4 @@ function CelticMythologyPage() {
   )
 }
 
-export default CelticMythologyPage
+export default transition(CelticMythologyPage) 

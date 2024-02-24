@@ -8,6 +8,7 @@ import MythologyTemplateCard from '../Mythologies/MythologyTemplateCard'
 import greekOlympiansImage from './images/GreekOlympiansImage.avif'
 import greekMortalsImage from './images/GreekMortalsImage.avif'
 import greekCreaturesImage from './images/GreekCreaturesImage.avif'
+import transition from '../../../Transition/transition'
 
 function GreekMythologyPage() {
   return (
@@ -47,4 +48,4 @@ function GreekMythologyPage() {
   )
 }
 
-export default GreekMythologyPage
+export default transition(GreekMythologyPage)

@@ -2,6 +2,7 @@ import React from 'react'
 import aztecMythology from '../../../components/pages/Mythologies/images/aztecMythology.png'
 import aztecGodsImage from '../../../components/pages/Mythologies/images/aztecGodsImage.avif'
 import MythologyTemplate from '../Mythologies/MythologyTemplate'
+import transition from '../../../Transition/transition'
 
 function AztecMythologyPage() {
   return (
@@ -19,4 +20,4 @@ function AztecMythologyPage() {
   )
 }
 
-export default AztecMythologyPage
+export default transition(AztecMythologyPage);

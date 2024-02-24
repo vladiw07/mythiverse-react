@@ -6,6 +6,7 @@ import norseMythology from '../../../components/pages/Mythologies/images/norseMy
 import secondNorseGodsImage from '../../../components/pages/Mythologies/images/norseGodsImage.avif'
 import norseCosmologyImage from './images/norseCosmologyImage.avif'
 import MythologyTemplateCard from '../Mythologies/MythologyTemplateCard'
+import transition from '../../../Transition/transition'
 
 
 function NorseMythologyPage() {
@@ -33,4 +34,4 @@ function NorseMythologyPage() {
   )
 }
 
-export default NorseMythologyPage
+export default transition(NorseMythologyPage)

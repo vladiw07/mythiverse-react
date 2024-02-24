@@ -5,6 +5,7 @@ import MythologyTemplate from '../Mythologies/MythologyTemplate'
 import egyptianMythology from '../../../components/pages/Mythologies/images/egyptianMythology.jpg'
 
 import egyptianGodsImage from '../../../components/pages/Mythologies/images/egyptianGodsImage.avif'
+import transition from '../../../Transition/transition'
 
 
 function EgyptianMythologyPage() {
@@ -23,4 +24,4 @@ function EgyptianMythologyPage() {
   )
 }
 
-export default EgyptianMythologyPage
+export default transition(EgyptianMythologyPage)

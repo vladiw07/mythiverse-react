@@ -16,6 +16,9 @@ import HephaestusImage from './GreekOlympiansImages/Hephaestus.jpg'
 import HestiaImage from './GreekOlympiansImages/Hestia.jpg'
 import AresImage from './GreekOlympiansImages/Ares.jpg'
 
+import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -30,6 +33,8 @@ function GreekOlympians() {
 
       <h2>List of Olympians</h2>
       <div className="olympian-list">
+          
+              
         <GreekOlympian path='/zeus' title='Zeus' text='The “cloud-gatherer”—king of the Greek gods and lord of the skies' image={`url(${zeusImage})`} />
         <GreekOlympian path='/athena' title='Athena' text='Greek goddess of wisdom, craftwork, and war' image={`url(${AthenaImage})`} />
         <GreekOlympian path='/poseidon' title='Poseidon' text='Lord of all waters; Greek god of the seas, sailors, and earthquakes' image={`url(${PoseidonImage})`} />
@@ -43,6 +48,7 @@ function GreekOlympians() {
         <GreekOlympian path='/hephaestus' title='Hephaestus' text='Craftsman of the Greek gods, master of metallurgy, and patron of artisans' image={`url(${HephaestusImage})`} />
         <GreekOlympian path='/hestia' title='Hestia' text='Greek goddess of the hearth and home' image={`url(${HestiaImage})`} />
         <GreekOlympian path='/ares' title='Ares' text='Greek god of rage, aggression, and the most violent aspects of war' image={`url(${AresImage})`} />
+        
       </div>
     </div>
   )

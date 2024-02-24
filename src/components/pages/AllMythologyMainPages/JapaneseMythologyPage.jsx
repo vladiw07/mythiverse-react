@@ -2,6 +2,7 @@ import React from 'react'
 import japaneseMythology from '../../../components/pages/Mythologies/images/japaneseMythology.jpg'
 import japaneseGodsImage from '../../../components/pages/Mythologies/images/japaneseGodsImage.avif'
 import MythologyTemplate from '../Mythologies/MythologyTemplate'
+import transition from '../../../Transition/transition'
 
 function JapaneseMythologyPage() {
   return (
@@ -21,4 +22,4 @@ function JapaneseMythologyPage() {
   )
 }
 
-export default JapaneseMythologyPage
+export default transition(JapaneseMythologyPage)

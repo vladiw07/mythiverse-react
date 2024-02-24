@@ -1,5 +1,6 @@
 import React from 'react'
 import ZeusTemplate from '../../Mythologies/GreekTemplates/zeusTemplate'
+import transition from '../../../../Transition/transition'
 
 
 

@@ -7,6 +7,7 @@ import { useLocation } from 'react-router-dom';
 import About from './components/pages/main/About'
 import Contact from './components/pages/main/Contact'
 import Home from "./components/pages/main/Home";
+import { motion } from "framer-motion";
 import MythologyTemplate from "./components/pages/Mythologies/MythologyTemplate";
 import greekMythology from './components/pages/Mythologies/images/greekMythology.jpg'
 import norseMythology from './components/pages/Mythologies/images/norseMythology.jpg'
@@ -90,6 +91,8 @@ import CelticGodsPage from "./components/pages/Collections/CollectionPages/Celti
 import HinduGodsPage from "./components/pages/Collections/CollectionPages/hinduGodsPage";
 import AztecGodsPage from "./components/pages/Collections/CollectionPages/AztecGodsPage";
 import JapaneseGodsPage from "./components/pages/Collections/CollectionPages/JapaneseGodsPage";
+import { AnimatePresence } from "framer-motion";
+import Newsletter from "./components/pages/main/Newsletter";
 
 
 
@@ -117,7 +120,9 @@ function App() {
       
       <Navbar />
       <ScrollToTop />
+      <AnimatePresence mode='wait'>
       
+              
       <Routes>
         
       <Route path="/greek-mythology" element={<GreekMythologyPage />}/>
@@ -132,81 +137,87 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-
+        <Route path="/Newsletter" element={<Newsletter />} />
 
 
         {/***********************Gods**************************/}
-        <Route path="/zeus" element={<Zeus />} />
-        <Route path="/athena" element={<Athena />} />
-        <Route path="/greekOlympians" element={<GreekOlympians />} />
-        <Route path="/greekTitans" element={<GreekTitans />} />
-        <Route path="/poseidon" element={<Poseidon />} />
-        <Route path="/prometheus" element={<Prometheus />} />
-        <Route path="/aphrodite" element={<Aphrodite />} />
-        <Route path="/hermes" element={<Hermes />} />
-        <Route path="/demeter" element={<Demeter />} />
-        <Route path="/apollo" element={<Apollo />} />
-        <Route path="/artemis" element={<Artemis />} />
-        <Route path="/dionysus" element={<Dionysus />} />
-        <Route path="/hera" element={<Hera />} />
-        <Route path="/hephaestus" element={<Hephaestus />} />
-        <Route path="/hestia" element={<Hestia />} />
-        <Route path="/ares" element={<Ares />} />
+        
+        <Route path="/zeus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Zeus /></motion.div>} />
+        <Route path="/athena" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Athena /></motion.div>} />
+        <Route path="/greekOlympians" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><GreekOlympians /></motion.div>} />
+        <Route path="/greekTitans" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><GreekTitans /></motion.div>} />
+        <Route path="/poseidon" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Poseidon /></motion.div>} />
+        <Route path="/prometheus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Prometheus /></motion.div>} />
+        <Route path="/aphrodite" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Aphrodite /></motion.div>} />
+        <Route path="/hermes" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hermes /></motion.div>} />
+        <Route path="/demeter" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Demeter /></motion.div>} />
+        <Route path="/apollo" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Apollo /></motion.div>} />
+        <Route path="/artemis" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Artemis /></motion.div>} />
+        <Route path="/dionysus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Dionysus /></motion.div>} />
+        <Route path="/hera" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hera /></motion.div>} />
+        <Route path="/hephaestus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hephaestus /></motion.div>} />
+        <Route path="/hestia" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hestia /></motion.div>} />
+        <Route path="/ares" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Ares /></motion.div>} />
+        
 
-        <Route path="/odin" element={<OdinTemplate />} />
-        <Route path="/loki" element={<LokiTemplate />} />
-        <Route path="/frigg" element={<FriggTemplate />} />
-        <Route path="/freya" element={<FreyaTemplate />} />
-        <Route path="/thor" element={<ThorTemplate />} />
-        <Route path="/baldur" element={<BaldurTemplate />} />
+        <Route path="/odin" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><OdinTemplate /></motion.div>} />
+        <Route path="/loki" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><LokiTemplate /></motion.div>} />
+        <Route path="/frigg" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><FriggTemplate /></motion.div>} />
+        <Route path="/freya" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><FreyaTemplate /></motion.div>} />
+        <Route path="/thor" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><ThorTemplate /></motion.div>} />
+        <Route path="/baldur" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><BaldurTemplate /></motion.div>} />
 
-        <Route path="/anubis" element={<AnubisTemplate />} />
-        <Route path="/ra" element={<RaTemplate />} />
-        <Route path="/nephthys" element={<NephthysTemplate />} />
-        <Route path="/osiris" element={<OsirisTemplate />} />
-        <Route path="/isis" element={<IsisTemplate />} />
-        <Route path="/horus" element={<HorusTemplate />} />
+        <Route path="/anubis" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><AnubisTemplate /></motion.div>} />
+        <Route path="/ra" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><RaTemplate /></motion.div>} />
+        <Route path="/nephthys" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><NephthysTemplate /></motion.div>} />
+        <Route path="/osiris" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><OsirisTemplate /></motion.div>} />
+        <Route path="/isis" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><IsisTemplate /></motion.div>} />
+        <Route path="/horus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><HorusTemplate /></motion.div>} />
 
-        <Route path="/chang'e" element={<ChangE />} />
-        <Route path="/nezha" element={<Nezha />} />
-        <Route path="/fuxi" element={<Fuxi />} />
-        <Route path="/jadeEmperor" element={<JadeEmperor />} />
-        <Route path="/nuwa" element={<Nuwa />} />
-        <Route path="/guanyin" element={<Guanyin />} />
+        <Route path="/chang'e" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><ChangE /></motion.div>} />
+        <Route path="/nezha" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Nezha /></motion.div>} />
+        <Route path="/fuxi" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Fuxi /></motion.div>} />
+        <Route path="/jadeEmperor" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><JadeEmperor /></motion.div>} />
+        <Route path="/nuwa" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Nuwa /></motion.div>} />
+        <Route path="/guanyin" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Guanyin /></motion.div>} />
 
-        <Route path="/brigid" element={<Brigid />} />
-        <Route path="/cernunnos" element={<Cernunnos/>} />
-        <Route path="/cuChulainn" element={<CuChulainn />} />
-        <Route path="/dagda" element={<Dagda />} />
-        <Route path="/lugh" element={<Lugh />} />
-        <Route path="/morrigan" element={<Morrigan />} />
+        <Route path="/brigid" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Brigid /></motion.div>} />
+        <Route path="/cernunnos" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Cernunnos/></motion.div>} />
+        <Route path="/cuChulainn" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><CuChulainn /></motion.div>} />
+        <Route path="/dagda" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Dagda /></motion.div>} />
+        <Route path="/lugh" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Lugh /></motion.div>} />
+        <Route path="/morrigan" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Morrigan /></motion.div>} />
 
-        <Route path="/shiva" element={<Shiva />} />
-        <Route path="/vishnu" element={<Vishnu/>} />
-        <Route path="/ganesha" element={<Ganesha />} />
-        <Route path="/parvati" element={<Parvati />} />
-        <Route path="/brahma" element={<Brahma />} />
-        <Route path="/krishna" element={<Krishna />} />
+        <Route path="/shiva" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Shiva /></motion.div>} />
+        <Route path="/vishnu" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Vishnu/></motion.div>} />
+        <Route path="/ganesha" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Ganesha /></motion.div>} />
+        <Route path="/parvati" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Parvati /></motion.div>} />
+        <Route path="/brahma" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Brahma /></motion.div>} />
+        <Route path="/krishna" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Krishna /></motion.div>} />
 
-        <Route path="/greekMortalsPage" element={<GreekMortalsPage />} />
-        <Route path="/greekCreaturesPage" element={<GreekCreatures />} />
+        
 
-        <Route path="/norseGodsPage" element={<NorseGodsPage />} />
+        <Route path="/greekMortalsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><GreekMortalsPage /></motion.div>} />
+        <Route path="/greekCreaturesPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><GreekCreatures /></motion.div>} />
 
-        <Route path="/egyptianGodsPage" element={<EgyptianGodsPage />} />
+        <Route path="/norseGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><NorseGodsPage /></motion.div>} />
 
-        <Route path="/chineseGodsPage" element={<ChineseGodsPage />} />
+        <Route path="/egyptianGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><EgyptianGodsPage /></motion.div>} />
 
-        <Route path="/celticGodsPage" element={<CelticGodsPage />} />
+        <Route path="/chineseGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><ChineseGodsPage /></motion.div>} />
 
-        <Route path="/hinduGodsPage" element={<HinduGodsPage />} />
+        <Route path="/celticGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><CelticGodsPage /></motion.div>} />
 
-        <Route path="/aztecGodsPage" element={<AztecGodsPage />} />
+        <Route path="/hinduGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><HinduGodsPage /></motion.div>} />
 
-        <Route path="/japaneseGodsPage" element={<JapaneseGodsPage />} />
+        <Route path="/aztecGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><AztecGodsPage /></motion.div>} />
+
+        <Route path="/japaneseGodsPage" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><JapaneseGodsPage /></motion.div>} />
 
 
       </Routes>
+      
+      </AnimatePresence>
       <Footer />
       
       
