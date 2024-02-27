@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState(null);
-  const navRef = useRef(null);
+  const submenuRef1 = useRef(null);
+  const submenuRef2 = useRef(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -18,23 +19,24 @@ export const Navbar = () => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
-        navRef.current &&
-        !navRef.current.contains(event.target)
+        (submenuRef1.current && !submenuRef1.current.contains(event.target)) &&
+        (submenuRef2.current && !submenuRef2.current.contains(event.target))
       ) {
         setMenuOpen(false);
         setActiveSubmenu(null);
       }
     };
-
+  
     window.addEventListener("click", handleClickOutside);
-
+  
     return () => {
       window.removeEventListener("click", handleClickOutside);
     };
-  }, []);
+  }, [submenuRef1, submenuRef2]);
+  
 
   return (
-    <nav ref={navRef}>
+    <nav>
      
       <Link to="/" className="title">
         Mythiverse
@@ -47,7 +49,7 @@ export const Navbar = () => {
       <ul className={menuOpen ? "open" : ""}>
         
         <li>
-          <div
+          <div ref={submenuRef1}
             style={activeSubmenu === "guides" ? { backgroundColor: "black" } : {}}
             className={`dropDownNavbarOptions ${activeSubmenu === "guides" ? "open" : ""}`}
             onClick={() => { toggleSubmenu("guides"); }}
@@ -66,7 +68,7 @@ export const Navbar = () => {
           </div>
         </li>
         <li>
-          <div
+          <div ref={submenuRef2}
             style={activeSubmenu === "menu" ? { backgroundColor: "black" } : {}}
             className={`dropDownNavbarOptions ${activeSubmenu === "menu" ? "open" : ""}`}
             onClick={() => { toggleSubmenu("menu"); }}
