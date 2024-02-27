@@ -30,15 +30,16 @@ body{
 }
 
 .discover-button {
-    background-color: #ffdd00;
+    background-color: #07deff;
     border: none;
-    border-radius: 4px;
-    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+
     position: relative;
     bottom: 100px;
     cursor: pointer;
@@ -47,7 +48,7 @@ body{
     
 }
 .discover-button:hover{
-    background-color: #d2b701;
+    background-color: #00a7c1;
 }
 .imageStart p {
     text-shadow: 1px 1px 1px rgba(81, 67, 21, 0.8);
