@@ -1,5 +1,6 @@
 .welcome-page {
     background: url(/public/images/mainMythology.jpg);
+    filter: grayscale(0.6);
     text-align: center;
     margin: 0 auto;
     width: 100%;

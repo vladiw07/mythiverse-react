@@ -173,7 +173,7 @@ nav ul li div:hover {
         padding: 1rem 0; /* Add padding for better spacing */
     }
     nav .menu {
-        display: none; /* should be flex*/
+        display: none; /* should be flex/none */
         
     }
 
@@ -185,7 +185,7 @@ nav ul li div:hover {
     }
 
     nav ul {
-        display: none; /* should be flex*/
+        display: flex; /* should be flex*/
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
