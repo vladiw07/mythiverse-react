@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.1909355b.css",
-    "main.js": "/mythiverse-react/static/js/main.e9c9f25b.js",
+    "main.css": "/mythiverse-react/static/css/main.7ae7ef67.css",
+    "main.js": "/mythiverse-react/static/js/main.36072461.js",
     "static/media/nutImage.png": "/mythiverse-react/static/media/nutImage.9aed9db330caed5ec1f2.png",
     "static/media/atalantaImage.jpeg": "/mythiverse-react/static/media/atalantaImage.9b15eacfb5cbfdcc4a88.jpeg",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
@@ -276,11 +276,11 @@
     "static/media/CrommyoniaImage.jpg": "/mythiverse-react/static/media/CrommyoniaImage.45ca910307ba1b949634.jpg",
     "static/media/Parvati1.avif": "/mythiverse-react/static/media/Parvati1.c42679ba053252996332.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.1909355b.css.map": "/mythiverse-react/static/css/main.1909355b.css.map",
-    "main.e9c9f25b.js.map": "/mythiverse-react/static/js/main.e9c9f25b.js.map"
+    "main.7ae7ef67.css.map": "/mythiverse-react/static/css/main.7ae7ef67.css.map",
+    "main.36072461.js.map": "/mythiverse-react/static/js/main.36072461.js.map"
   },
   "entrypoints": [
-    "static/css/main.1909355b.css",
-    "static/js/main.e9c9f25b.js"
+    "static/css/main.7ae7ef67.css",
+    "static/js/main.36072461.js"
   ]
 }
