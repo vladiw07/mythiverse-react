@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.ef82e907.css",
-    "main.js": "/mythiverse-react/static/js/main.5c87bdb9.js",
+    "main.css": "/mythiverse-react/static/css/main.1dd5df9b.css",
+    "main.js": "/mythiverse-react/static/js/main.3e866d88.js",
     "static/media/nutImage.png": "/mythiverse-react/static/media/nutImage.9aed9db330caed5ec1f2.png",
     "static/media/atalantaImage.jpeg": "/mythiverse-react/static/media/atalantaImage.9b15eacfb5cbfdcc4a88.jpeg",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
@@ -275,12 +275,24 @@
     "static/media/change1.avif": "/mythiverse-react/static/media/change1.7b0b6185746fff4c2b23.avif",
     "static/media/CrommyoniaImage.jpg": "/mythiverse-react/static/media/CrommyoniaImage.45ca910307ba1b949634.jpg",
     "static/media/Parvati1.avif": "/mythiverse-react/static/media/Parvati1.c42679ba053252996332.avif",
+    "static/media/achilles.avif": "/mythiverse-react/static/media/achilles.9f2bf262ac9c31d4b308.avif",
+    "static/media/cerberus.avif": "/mythiverse-react/static/media/cerberus.eb4417e80f458141ce60.avif",
+    "static/media/athenaImage.avif": "/mythiverse-react/static/media/athenaImage.d6c3ee64252b581791a5.avif",
+    "static/media/medusa.avif": "/mythiverse-react/static/media/medusa.578e6f0fde8d442cbae0.avif",
+    "static/media/atlas.avif": "/mythiverse-react/static/media/atlas.ce6885fc463f408bac21.avif",
+    "static/media/perseus.avif": "/mythiverse-react/static/media/perseus.77a0e26852f4927222c9.avif",
+    "static/media/artemisImage.avif": "/mythiverse-react/static/media/artemisImage.dce957643c25ac890ce3.avif",
+    "static/media/prometheus.avif": "/mythiverse-react/static/media/prometheus.01b230da705eca592aad.avif",
+    "static/media/zeusImage.avif": "/mythiverse-react/static/media/zeusImage.8e03f4b9006f622094cd.avif",
+    "static/media/cronus.avif": "/mythiverse-react/static/media/cronus.8026f01e8b44d5ba97ef.avif",
+    "static/media/hydra.avif": "/mythiverse-react/static/media/hydra.4edd56a7cc7ac376ac0d.avif",
     "index.html": "/mythiverse-react/index.html",
-    "main.ef82e907.css.map": "/mythiverse-react/static/css/main.ef82e907.css.map",
-    "main.5c87bdb9.js.map": "/mythiverse-react/static/js/main.5c87bdb9.js.map"
+    "static/media/heraclesImage.avif": "/mythiverse-react/static/media/heraclesImage.2f849ae92d46639dbdc1.avif",
+    "main.1dd5df9b.css.map": "/mythiverse-react/static/css/main.1dd5df9b.css.map",
+    "main.3e866d88.js.map": "/mythiverse-react/static/js/main.3e866d88.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef82e907.css",
-    "static/js/main.5c87bdb9.js"
+    "static/css/main.1dd5df9b.css",
+    "static/js/main.3e866d88.js"
   ]
 }
