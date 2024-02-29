@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AllMythologiesSection.css"
+import { Link } from 'react-router-dom'
 
 
 function AllMythologiesSection() {
@@ -16,9 +17,38 @@ function AllMythologiesSection() {
         <p id='collectiontext'>collection</p>
         <header>Greek Olympians</header>
         <p>The primary deities of the Greek pantheon, who ruled from Mount Olympus</p>
-        <button>View</button>
+        <Link to='/greekOlympians'><button>View</button></Link>
         <hr />
         <p className="featuredP">featured</p>
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Athena</header>
+          <header>Greek Goddess</header>
+            </div>
+          <div className="godImageDiv1"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/zeus'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Zeus</header>
+          <header>Olympian God</header>
+            </div>
+          <div className="godImageDiv2"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/artemis'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Artemis</header>
+          <header>Olympian Goddess</header>
+            </div>
+          <div className="godImageDiv3"></div>
+          </div>
+        </Link>
         </li>
         
         <li>
@@ -26,9 +56,40 @@ function AllMythologiesSection() {
         <p id='collectiontext'>collection</p>
         <header>Greek Heroes</header>
         <p>Notable or superhuman mortals from Greek mythology</p>
-        <button>View</button>
+        <Link to='/greekOlympians'><button>View</button></Link>
         <hr />
         <p className="featuredP">featured</p>
+
+        <Link className='godLink' to='/heracles'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Heracles</header>
+          <header>Greek Hero</header>
+            </div>
+          <div className="godImageDiv4"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Achilles</header>
+          <header>Greek Hero</header>
+            </div>
+          <div className="godImageDiv5"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Perseus</header>
+          <header>Argive Hero</header>
+            </div>
+          <div className="godImageDiv6"></div>
+          </div>
+        </Link>
+        
         </li>
         
         <li>
@@ -36,9 +97,39 @@ function AllMythologiesSection() {
         <p id='collectiontext'>collection</p>
         <header>Greek Creatures</header>
         <p>Legendary beasts, animals, and humanoids of ancient Greek mythology</p>
-        <button>View</button>
+        <Link to='/greekCreaturesPage'><button>View</button></Link>
         <hr />
         <p className="featuredP">featured</p>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Medusa</header>
+          <header>Creature</header>
+            </div>
+          <div className="godImageDiv7"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Hydra</header>
+          <header>Greek Creature</header>
+            </div>
+          <div className="godImageDiv8"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Cerberus</header>
+          <header>Greek Creature</header>
+            </div>
+          <div className="godImageDiv9"></div>
+          </div>
+        </Link>
         </li>
 
         <li>
@@ -46,9 +137,39 @@ function AllMythologiesSection() {
         <p id='collectiontext'>collection</p>
         <header>Greek Titans</header>
         <p>The generation of Greek gods who directly preceded the Olympians</p>
-        <button>View</button>
+        <Link to='/greekTitans'><button>View</button></Link>
         <hr />
         <p className="featuredP">featured</p>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Atlas</header>
+          <header>Greek Titan</header>
+            </div>
+          <div className="godImageDiv10"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Prometheus</header>
+          <header>Greek Titan</header>
+            </div>
+          <div className="godImageDiv11"></div>
+          </div>
+        </Link>
+
+        <Link className='godLink' to='/athena'>
+          <div id='threelementDiv'>
+            <div id='headersDiv'>
+          <header>Cronus</header>
+          <header>Titan</header>
+            </div>
+          <div className="godImageDiv12"></div>
+          </div>
+        </Link>
         </li>
        
         

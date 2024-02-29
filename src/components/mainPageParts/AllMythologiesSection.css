@@ -6,6 +6,8 @@
     gap: 1rem;
     font-family: "Poppins",sans-serif;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -65,12 +67,142 @@
 #headers :nth-child(2){
     font-weight: 500;
     font-size: 3rem;
+    
 }
-
+.godLink{
+    text-decoration: none;
+    color: black;
+}
 #headers hr{
     background-color: rgb(255, 208, 0);
     height: 3px;
     width: 10%;
     border: none;
     margin: 0 auto;
+}
+
+#headersDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#threelementDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.godImageDiv1{
+    background: url(Images/athenaImage.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv2{
+    background: url(Images/zeusImage.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv3{
+    background: url(Images/artemisImage.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv4{
+    background: url(Images/heraclesImage.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv5{
+    background: url(Images/achilles.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv6{
+    background: url(Images/perseus.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv7{
+    background: url(Images/medusa.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv8{
+    background: url(Images/hydra.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv9{
+    background: url(Images/cerberus.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv10{
+    background: url(Images/atlas.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.godImageDiv11{
+    background: url(Images/prometheus.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.godImageDiv12{
+    background: url(Images/cronus.avif);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+#headersDiv :nth-child(1){
+    font-size: 22px;
+}
+
+#headersDiv :nth-child(2){
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.587);
+    font-style: italic;
+    text-transform: none;
+    position: relative;
+    bottom: 20px;
+}
+
+
+@media (max-width: 828px) {
+    .mythologiesUl{
+        flex-direction: column;
+    }
 }
