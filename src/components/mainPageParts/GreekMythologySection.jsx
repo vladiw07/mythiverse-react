@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AllMythologiesSection.css"
+import "./GreekMythologySection.css"
 import { Link } from 'react-router-dom'
 
 

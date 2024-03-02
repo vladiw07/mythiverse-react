@@ -164,16 +164,24 @@ nav ul li div:hover {
 }
 
 
+.nav-icon{
+    
+    display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+
 
 @media (max-width: 722px) {
     nav .title {
-        text-align: center; /* Center the text */
-        width: 100%; /* Occupy full width */
-        margin: 0 auto; /* Center horizontally */
-        padding: 1rem 0; /* Add padding for better spacing */
+        text-align: center;
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 1rem 0; 
     }
     nav .menu {
-        display: none; /* should be flex/none */
+        display: flex; /* should be flex/none */
         
     }
 
@@ -186,7 +194,6 @@ nav ul li div:hover {
 
     nav ul {
         display: flex; /* should be flex*/
-        flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
         
@@ -209,6 +216,11 @@ nav ul li div:hover {
     .dropDownNavbarOptions{
         display: none;
     }
+    
+    
+
+    
+    
     
 }
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import WelcomeSection from '../../mainPageParts/WelcomeSection';
 import transition from '../../../Transition/transition'
-import AllMythologiesSection from '../../mainPageParts/AllMythologiesSection';
+import GreekMythologySection from '../../mainPageParts/GreekMythologySection';
+import NorseMythologySection from '../../mainPageParts/NorseMythologySection';
 
 
 function Home() {
@@ -9,7 +10,8 @@ function Home() {
     
     <>
       <WelcomeSection />
-      <AllMythologiesSection />
+      <GreekMythologySection />
+      <NorseMythologySection />
     </>
     
     

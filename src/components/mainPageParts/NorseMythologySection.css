@@ -1,0 +1,131 @@
+.norseMythologyUl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 100px 0;
+}
+.norseMythologyUl *{
+ 
+  text-decoration: none;
+}
+.norseMythologyUl li header {
+    opacity: 0;
+    transform: translateY(20px); 
+    position: relative;
+    bottom: 6px;
+    right: 8px;
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
+    font-style: italic;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.norseMythologyUl li:hover header {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.norseMythologyUl li {
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.norseMythologyUl li:hover {
+    transition: all 0.4s ease-in-out;
+    filter: grayscale(1);
+}
+
+
+
+
+#norseGod1{
+    background: url(./Images/odin.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#norseGod1:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+#norseGod2{
+    background: url(./Images/loki.webp);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#norseGod2:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+#norseGod3{
+    background: url(./Images/frigg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#norseGod3:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+#norseGod4{
+    background: url(./Images/freya.jpg);
+    background-size: 180%;
+    background-position: -90px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#norseGod4:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+#norseGod5{
+    background: url(./Images/thor.jpg);
+    background-size: 180%;
+    background-position: -105px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+}
+
+#norseGod5:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+#norseGod6{
+    background: url(./Images/baldur.jpg);
+    background-size: 180%;
+    background-position: -80px -40px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+}
+
+#norseGod6:hover > header{
+    bottom: 6px;
+    display: block;
+}
+
+
+
+
+

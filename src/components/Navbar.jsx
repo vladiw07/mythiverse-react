@@ -1,12 +1,22 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { FiMenu, FiX } from 'react-icons/fi';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState(null);
   const submenuRef1 = useRef(null);
   const submenuRef2 = useRef(null);
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () => {
+		setOpen(!open);
+	};
+
+	const closeMenu = () => {
+		setOpen(false);
+	};
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -41,17 +51,13 @@ export const Navbar = () => {
       <Link to="/" className="title">
         Mythiverse
       </Link>
-      <div className="menu" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      
       <ul className={menuOpen ? "open" : ""}>
         
         <li>
           <div ref={submenuRef1}
             style={activeSubmenu === "guides" ? { backgroundColor: "black" } : {}}
-            className={`dropDownNavbarOptions ${activeSubmenu === "guides" ? "open" : ""}`}
+            className={`dropDownNavbarOptions ${open ? "active" : ""} ${activeSubmenu === "guides" ? "open" : ""}`}
             onClick={() => { toggleSubmenu("guides"); }}
           >
             Guides
@@ -70,7 +76,7 @@ export const Navbar = () => {
         <li>
           <div ref={submenuRef2}
             style={activeSubmenu === "menu" ? { backgroundColor: "black" } : {}}
-            className={`dropDownNavbarOptions ${activeSubmenu === "menu" ? "open" : ""}`}
+            className={`dropDownNavbarOptions ${open ? 'active' : ''} ${activeSubmenu === "menu" ? "open" : ""}`}
             onClick={() => { toggleSubmenu("menu"); }}
           >
             Menu
@@ -81,8 +87,12 @@ export const Navbar = () => {
               <li><Link className="submenu-link" style={{ backgroundColor: 'transparent' }} to="/Contact">Contact</Link></li>
               
             </ul>
+            
           </div>
         </li>
+        <div onClick={handleClick} className="nav-icon">
+				{open ? <FiX /> : <FiMenu />}
+			</div>
       </ul>
     </nav>
   );
