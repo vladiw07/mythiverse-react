@@ -201,8 +201,14 @@
 }
 
 
-@media (max-width: 828px) {
+@media (max-width: 839px) {
     .mythologiesUl{
         flex-direction: column;
+    }
+}
+
+@media (max-width: 973px) {
+    .mythologiesUl li p{
+        font-size: 0.8rem;
     }
 }
