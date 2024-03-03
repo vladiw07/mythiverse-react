@@ -3,6 +3,7 @@ import WelcomeSection from '../../mainPageParts/WelcomeSection';
 import transition from '../../../Transition/transition'
 import GreekMythologySection from '../../mainPageParts/GreekMythologySection';
 import NorseMythologySection from '../../mainPageParts/NorseMythologySection';
+import EgyptianMythologySection from '../../mainPageParts/EgyptianMythologySection';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <WelcomeSection />
       <GreekMythologySection />
       <NorseMythologySection />
+      <EgyptianMythologySection />
     </>
     
     

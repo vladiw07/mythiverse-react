@@ -1,9 +1,49 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./GreekMythologySection.css"
 import { Link } from 'react-router-dom'
+import { motion, useAnimation } from 'framer-motion';
 
 
 function AllMythologiesSection() {
+  const [isVisible, setIsVisible] = useState(false);
+  const controls = useAnimation();
+  const elementRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (elementRef.current) {
+        const top = elementRef.current.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (top < windowHeight * 0.8) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isVisible) {
+      controls.start({
+        opacity: 1,
+        x: 0, 
+        transition: { duration: 0.5 },
+      });
+    } else {
+      controls.start({ opacity: 0, x: -50 }); 
+    }
+  }, [isVisible, controls]);
+
+
+
+
   return (
     <>
     <div id='headers'>
@@ -11,7 +51,12 @@ function AllMythologiesSection() {
     <h1>Meet the Greeks</h1>
     <hr />
     </div>
-      <ul className='mythologiesUl'>
+    <motion.ul
+        ref={elementRef}
+        className='mythologiesUl'
+        animate={controls}
+        initial={{ opacity: 0, x: -50 }} 
+      >
         <li>
         <div className="img"></div>
         <p id='collectiontext'>collection</p>
@@ -174,7 +219,7 @@ function AllMythologiesSection() {
        
         
 
-      </ul>
+        </motion.ul>
     </>
   )
 }
