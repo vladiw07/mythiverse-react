@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.d534d487.css",
-    "main.js": "/mythiverse-react/static/js/main.6d6a024f.js",
+    "main.css": "/mythiverse-react/static/css/main.af52f5c6.css",
+    "main.js": "/mythiverse-react/static/js/main.2586cea1.js",
     "static/media/nutImage.png": "/mythiverse-react/static/media/nutImage.9aed9db330caed5ec1f2.png",
     "static/media/atalantaImage.jpeg": "/mythiverse-react/static/media/atalantaImage.9b15eacfb5cbfdcc4a88.jpeg",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
@@ -294,11 +294,11 @@
     "static/media/hydra.avif": "/mythiverse-react/static/media/hydra.4edd56a7cc7ac376ac0d.avif",
     "index.html": "/mythiverse-react/index.html",
     "static/media/heraclesImage.avif": "/mythiverse-react/static/media/heraclesImage.2f849ae92d46639dbdc1.avif",
-    "main.d534d487.css.map": "/mythiverse-react/static/css/main.d534d487.css.map",
-    "main.6d6a024f.js.map": "/mythiverse-react/static/js/main.6d6a024f.js.map"
+    "main.af52f5c6.css.map": "/mythiverse-react/static/css/main.af52f5c6.css.map",
+    "main.2586cea1.js.map": "/mythiverse-react/static/js/main.2586cea1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d534d487.css",
-    "static/js/main.6d6a024f.js"
+    "static/css/main.af52f5c6.css",
+    "static/js/main.2586cea1.js"
   ]
 }
