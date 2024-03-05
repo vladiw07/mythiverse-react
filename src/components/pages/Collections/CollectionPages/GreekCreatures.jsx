@@ -43,30 +43,30 @@ function GreekCreatures() {
 
         <ul className='elementsUl'>
             
-            <li> <HeroGodTemplate elementText='Cerberus' image={cerberusImage} /> </li>
-            <li> <HeroGodTemplate elementText='Charybdis' image={charybdisImage}   /></li>
-            <li> <HeroGodTemplate elementText='Chimera' image={chimeraImage}   /></li>
-            <li> <HeroGodTemplate elementText='Cyclopes' image={cyclopesImage}  /></li>
-            <li> <HeroGodTemplate elementText='Hecatoncheires' image={hecatoncheiresImage}  /></li>
-            <li> <HeroGodTemplate elementText='Hydra' image={hydraImage}  /></li>
-            <li> <HeroGodTemplate elementText='Medusa' image={medusaImage}   /></li>
-            <li> <HeroGodTemplate elementText='Minotaur' image={minotaurImage} /></li>
-            <li> <HeroGodTemplate elementText='Pegasus' image={pegasusImage}  /></li>
-            <li> <HeroGodTemplate elementText='Polyphemus' image={polyphemusImage}/></li>
-            <li> <HeroGodTemplate elementText='Scylla' image={scyllaImage} /></li>
-            <li> <HeroGodTemplate elementText='Uranian Cyclopes' image={uranianCyclopesImage} /></li>
-            <li> <HeroGodTemplate elementText='Giants' image={giantsImage}  /></li>
-            <li> <HeroGodTemplate elementText='Mormo' image={mormoImage} /></li>
-            <li> <HeroGodTemplate elementText='Balius and Xanthus' image={BaliusandXanthusImage} /></li>
-            <li> <HeroGodTemplate elementText='Crommyonian Sow' image={CrommyoniaImage} /></li>
-            <li> <HeroGodTemplate elementText='Pan' image={PanImage} /></li>
-            <li> <HeroGodTemplate elementText='Graeae' image={GraeaeImage} /></li>
-            <li> <HeroGodTemplate elementText='Cercopes' image={CercopesImage} /></li>
-            <li> <HeroGodTemplate elementText='Arion' image={ArionImage} /></li>
-            <li> <HeroGodTemplate elementText='Pygmies' image={PygmiesImage} /></li>
-            <li> <HeroGodTemplate elementText='Gorgons' image={GorgonsImage} /></li>
-            <li> <HeroGodTemplate elementText='Cretan Bull' image={CretanBullImage}/></li>
-            <li> <HeroGodTemplate elementText='Stymphalian Birds' image={stymphalianbirdsImage} /></li>
+            <li> <HeroGodTemplate path='/cerberus' elementText='Cerberus' image={cerberusImage} /> </li>
+            <li> <HeroGodTemplate path='/charybdis' elementText='Charybdis' image={charybdisImage}   /></li>
+            <li> <HeroGodTemplate path='/chimera' elementText='Chimera' image={chimeraImage}   /></li>
+            <li> <HeroGodTemplate path='/cyclopes' elementText='Cyclopes' image={cyclopesImage}  /></li>
+            <li> <HeroGodTemplate path='/hecatoncheires' elementText='Hecatoncheires' image={hecatoncheiresImage}  /></li>
+            <li> <HeroGodTemplate path='/hydra' elementText='Hydra' image={hydraImage}  /></li>
+            <li> <HeroGodTemplate path='/medusa' elementText='Medusa' image={medusaImage}   /></li>
+            <li> <HeroGodTemplate path='/minotaur' elementText='Minotaur' image={minotaurImage} /></li>
+            <li> <HeroGodTemplate path='/pegasus' elementText='Pegasus' image={pegasusImage}  /></li>
+            <li> <HeroGodTemplate path='/polyphemus' elementText='Polyphemus' image={polyphemusImage}/></li>
+            <li> <HeroGodTemplate path='/scylla' elementText='Scylla' image={scyllaImage} /></li>
+            <li> <HeroGodTemplate path='/uranianCyclopes' elementText='Uranian Cyclopes' image={uranianCyclopesImage} /></li>
+            <li> <HeroGodTemplate path='/giants' elementText='Giants' image={giantsImage}  /></li>
+            <li> <HeroGodTemplate path='/mormo' elementText='Mormo' image={mormoImage} /></li>
+            <li> <HeroGodTemplate path='/baliusAndXanthus' elementText='Balius and Xanthus' image={BaliusandXanthusImage} /></li>
+            <li> <HeroGodTemplate path='/crommyonianSow' elementText='Crommyonian Sow' image={CrommyoniaImage} /></li>
+            <li> <HeroGodTemplate path='/pan' elementText='Pan' image={PanImage} /></li>
+            <li> <HeroGodTemplate path='/graeae' elementText='Graeae' image={GraeaeImage} /></li>
+            <li> <HeroGodTemplate path='/cercopes' elementText='Cercopes' image={CercopesImage} /></li>
+            <li> <HeroGodTemplate path='/arion' elementText='Arion' image={ArionImage} /></li>
+            <li> <HeroGodTemplate path='/pygmies' elementText='Pygmies' image={PygmiesImage} /></li>
+            <li> <HeroGodTemplate path='/gorgons' elementText='Gorgons' image={GorgonsImage} /></li>
+            <li> <HeroGodTemplate path='/cretanBull' elementText='Cretan Bull' image={CretanBullImage}/></li>
+            <li> <HeroGodTemplate path='/stymphalianBirds' elementText='Stymphalian Birds' image={stymphalianbirdsImage} /></li>
             </ul>
         
 

@@ -19,20 +19,13 @@ function GreekTitans() {
 
       <h2>List of Greek Titans</h2>
       <div className="olympian-list">
-      <GreekOlympian title='Atlas' text='Immensely strong Greek Titan known for carrying the world on his shoulders' image={`url(${atlasImage})`}  />
+      <GreekOlympian path='/atlas' title='Atlas' text='Immensely strong Greek Titan known for carrying the world on his shoulders' image={`url(${atlasImage})`}  />
       <GreekOlympian path='/prometheus' title='Prometheus' text='Wily Greek Titan who angered the gods by giving fire to mankind' image={`url(${prometheusImage})`}  />
-      <GreekOlympian title='Cronus' text='Titan who overthrew his father to rule the cosmos' image={`url(${cronusImage})`}  />
-      <GreekOlympian title='Coeus' text='Inquisitive Greek Titan and grandfather to the Olympians Apollo and Artemis' image={`url(${coeusImage})`}/>
-      <GreekOlympian title='Crius' text='The “ram”—an obscure Greek Titan who fathered numerous gods' image={`url(${criusImage})`}/>
-      <GreekOlympian title='Hyperion' text='The “high one”—Greek Titan who fathered the gods of the sun, moon, and dawn' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'} />
-      <GreekOlympian title='Iapetus' text='Powerful Greek Titan who fathered Atlas and Prometheus' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Oceanus' text='Greek Titan who embodied all the waters of the world' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Rhea' text='Mother of the Olympians who helped dethrone her husband Cronus'display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Mnemosyne' text='Inspirational Greek Titan known as the divine source of all memory' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Phoebe' text='Greek Titan and grandmother to Apollo and Artemis' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Tethys' text='Greek Titan known for her maternal nature, with over three thousand children' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Theia' text='Greek Titan who gave birth to the gods of the sun, moon, and dawn' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
-      <GreekOlympian title='Themis' text='“Lady Justice”—Greek Titan who embodied the concepts of justice and fairness' display={'none'} margin={'0 auto'} textAlign={'center'} imageMarginTop={'-100px'}/>
+      <GreekOlympian path='/cronus' title='Cronus' text='Titan who overthrew his father to rule the cosmos' image={`url(${cronusImage})`}  />
+      <GreekOlympian path='/coeus' title='Coeus' text='Inquisitive Greek Titan and grandfather to the Olympians Apollo and Artemis' image={`url(${coeusImage})`}/>
+      <GreekOlympian path='/crius' title='Crius' text='The “ram”—an obscure Greek Titan who fathered numerous gods' image={`url(${criusImage})`}/>
+
+      
       </div>
     </div>
   )

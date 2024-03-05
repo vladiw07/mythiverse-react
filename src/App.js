@@ -93,6 +93,12 @@ import AztecGodsPage from "./components/pages/Collections/CollectionPages/AztecG
 import JapaneseGodsPage from "./components/pages/Collections/CollectionPages/JapaneseGodsPage";
 import { AnimatePresence } from "framer-motion";
 import Newsletter from "./components/pages/main/Newsletter";
+import Atlas from "./components/pages/Olympians/Atlas";
+import Cronus from "./components/pages/Olympians/Cronus";
+import Coeus from "./components/pages/Olympians/Coeus";
+import Crius from "./components/pages/Olympians/Crius";
+import Cerberus from "./components/pages/GreekCreatures/Cerberus";
+import Charybdis from "./components/pages/GreekCreatures/Charybdis";
 
 
 
@@ -158,7 +164,14 @@ function App() {
         <Route path="/hephaestus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hephaestus /></motion.div>} />
         <Route path="/hestia" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Hestia /></motion.div>} />
         <Route path="/ares" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Ares /></motion.div>} />
-        
+        <Route path="/atlas" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Atlas /></motion.div>} />
+        <Route path="/cronus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Cronus /></motion.div>} />
+        <Route path="/coeus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Coeus /></motion.div>} />
+        <Route path="/crius" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Crius /></motion.div>} />
+        <Route path="/cerberus" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Cerberus /></motion.div>} />
+        <Route path="/charybdis" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><Charybdis /></motion.div>} />
+
+
 
         <Route path="/odin" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><OdinTemplate /></motion.div>} />
         <Route path="/loki" element={<motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -50 }} transition={{ duration: 0.5 }}><LokiTemplate /></motion.div>} />
