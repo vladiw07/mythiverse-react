@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mythiverse-react/static/css/main.af52f5c6.css",
-    "main.js": "/mythiverse-react/static/js/main.2586cea1.js",
+    "main.css": "/mythiverse-react/static/css/main.22f759db.css",
+    "main.js": "/mythiverse-react/static/js/main.2b860873.js",
     "static/media/nutImage.png": "/mythiverse-react/static/media/nutImage.9aed9db330caed5ec1f2.png",
     "static/media/atalantaImage.jpeg": "/mythiverse-react/static/media/atalantaImage.9b15eacfb5cbfdcc4a88.jpeg",
     "static/media/aztecMythology.png": "/mythiverse-react/static/media/aztecMythology.34c7f77a1378deddbbef.png",
@@ -60,6 +60,8 @@
     "static/media/kagutsuchiImage.jpg": "/mythiverse-react/static/media/kagutsuchiImage.ed28c4d22ac2d2599b4b.jpg",
     "static/media/aphrodite1.avif": "/mythiverse-react/static/media/aphrodite1.3294710a6c852eef50ff.avif",
     "static/media/norseGodsImage.avif": "/mythiverse-react/static/media/norseGodsImage.909f108087bcefaee118.avif",
+    "static/media/cerberus1.avif": "/mythiverse-react/static/media/cerberus1.d957966e78724c0f2884.avif",
+    "static/media/cronus2.avif": "/mythiverse-react/static/media/cronus2.ddd6f1b54d75cf41e2eb.avif",
     "static/media/athena10.avif": "/mythiverse-react/static/media/athena10.67fb5bcd3eab3d9837fb.avif",
     "static/media/danuImage.jpg": "/mythiverse-react/static/media/danuImage.3c99aa8fc1eff7908c76.jpg",
     "static/media/GreekMortalsImage.avif": "/mythiverse-react/static/media/GreekMortalsImage.d4da907f8715465b10af.avif",
@@ -81,14 +83,17 @@
     "static/media/cerberusImage.jpg": "/mythiverse-react/static/media/cerberusImage.8d920b47056aae8b90c0.jpg",
     "static/media/hestia4.avif": "/mythiverse-react/static/media/hestia4.5cc82ff7bb0be14bd515.avif",
     "static/media/anubis2.avif": "/mythiverse-react/static/media/anubis2.68d7f552b5c61e3e6d3d.avif",
+    "static/media/coeus1.avif": "/mythiverse-react/static/media/coeus1.bd2da977856ee9076bed.avif",
     "static/media/odin1.avif": "/mythiverse-react/static/media/odin1.567e67e38fef0435058c.avif",
     "static/media/Hephaestus2.avif": "/mythiverse-react/static/media/Hephaestus2.ad71af6fdd052ec928c8.avif",
     "static/media/PanImage.jpg": "/mythiverse-react/static/media/PanImage.c36e6e1c6aa97d4e5a1d.jpg",
     "static/media/JadeEmperor1.avif": "/mythiverse-react/static/media/JadeEmperor1.13c0ddb486ca461e2f4b.avif",
     "static/media/thor1.avif": "/mythiverse-react/static/media/thor1.09dde31e925416997492.avif",
     "static/media/achillesImage.jpg": "/mythiverse-react/static/media/achillesImage.4c1adc65423a342c56d5.jpg",
+    "static/media/atlas2.avif": "/mythiverse-react/static/media/atlas2.a9d4a72d3f6c135d461c.avif",
     "static/media/odin2.avif": "/mythiverse-react/static/media/odin2.b7468d70f857e7efc569.avif",
     "static/media/ganeshaImage.jpg": "/mythiverse-react/static/media/ganeshaImage.630a1fbfdb5fbb35cb58.jpg",
+    "static/media/charybdis2.avif": "/mythiverse-react/static/media/charybdis2.1a8773b2b1dcfd5ae9b0.avif",
     "static/media/thor.jpg": "/mythiverse-react/static/media/thor.de7f71174bd1811bce9f.jpg",
     "static/media/demeter5.avif": "/mythiverse-react/static/media/demeter5.83cbe0c4635697859636.avif",
     "static/media/athenaImage4.avif": "/mythiverse-react/static/media/athenaImage4.3e422940b2ae020f4c0a.avif",
@@ -130,6 +135,7 @@
     "static/media/kichijotenImage.webp": "/mythiverse-react/static/media/kichijotenImage.097772411333714a6adc.webp",
     "static/media/demeter1.avif": "/mythiverse-react/static/media/demeter1.c263a9706974c32a00e7.avif",
     "static/media/PygmiesImage.webp": "/mythiverse-react/static/media/PygmiesImage.d214f499416746d83701.webp",
+    "static/media/crius1.avif": "/mythiverse-react/static/media/crius1.9c32a329e846c576cdd6.avif",
     "static/media/hermes2.avif": "/mythiverse-react/static/media/hermes2.9b66ed48631c87336435.avif",
     "static/media/prometheus1.avif": "/mythiverse-react/static/media/prometheus1.6809c5a319a36c3e47d7.avif",
     "static/media/freya1.avif": "/mythiverse-react/static/media/freya1.d92338f8b2a481e01190.avif",
@@ -201,6 +207,7 @@
     "static/media/ebisuImage.jpg": "/mythiverse-react/static/media/ebisuImage.8c6c7ff5a42168a73e29.jpg",
     "static/media/poseidon2.avif": "/mythiverse-react/static/media/poseidon2.e0f9a2644c743d2d905f.avif",
     "static/media/apollo2.avif": "/mythiverse-react/static/media/apollo2.1a3ff7f0e10394f2c372.avif",
+    "static/media/charybdis1.avif": "/mythiverse-react/static/media/charybdis1.e25483f46ce7c9aa7369.avif",
     "static/media/hera4.avif": "/mythiverse-react/static/media/hera4.3afd1d454c59246457ec.avif",
     "static/media/guanyin1.avif": "/mythiverse-react/static/media/guanyin1.05094dd7d768ae99bdbc.avif",
     "static/media/Dionysus6.avif": "/mythiverse-react/static/media/Dionysus6.579d79ec248dfcb77dd2.avif",
@@ -240,6 +247,7 @@
     "static/media/njordImage.jpg": "/mythiverse-react/static/media/njordImage.64c17c3e472be8f08056.jpg",
     "static/media/Hephaestus.jpg": "/mythiverse-react/static/media/Hephaestus.41ad3b4f8e54eef9639b.jpg",
     "static/media/dragonKingImage.jpg": "/mythiverse-react/static/media/dragonKingImage.2c63458647b2a8c08c31.jpg",
+    "static/media/atlas1.avif": "/mythiverse-react/static/media/atlas1.734f5a6d0518b943ea84.avif",
     "static/media/crius.jpg": "/mythiverse-react/static/media/crius.74c17e56957623efe64f.jpg",
     "static/media/horusImage.jpg": "/mythiverse-react/static/media/horusImage.cc98b9e371f8a922c77a.jpg",
     "static/media/vishnu1.avif": "/mythiverse-react/static/media/vishnu1.41fd48d70c9b8907ef78.avif",
@@ -277,6 +285,7 @@
     "static/media/jurojinImage.jpg": "/mythiverse-react/static/media/jurojinImage.63299d085260a7cae15c.jpg",
     "static/media/thothImage.jpg": "/mythiverse-react/static/media/thothImage.d001a120751651f15539.jpg",
     "static/media/hathorImage.jpg": "/mythiverse-react/static/media/hathorImage.a5168705a09bdb30cc00.jpg",
+    "static/media/cronus1.avif": "/mythiverse-react/static/media/cronus1.ec8396c5579bb4359a51.avif",
     "static/media/ra1.avif": "/mythiverse-react/static/media/ra1.9620f5bfc52560e08a22.avif",
     "static/media/change1.avif": "/mythiverse-react/static/media/change1.7b0b6185746fff4c2b23.avif",
     "static/media/CrommyoniaImage.jpg": "/mythiverse-react/static/media/CrommyoniaImage.45ca910307ba1b949634.jpg",
@@ -294,11 +303,11 @@
     "static/media/hydra.avif": "/mythiverse-react/static/media/hydra.4edd56a7cc7ac376ac0d.avif",
     "index.html": "/mythiverse-react/index.html",
     "static/media/heraclesImage.avif": "/mythiverse-react/static/media/heraclesImage.2f849ae92d46639dbdc1.avif",
-    "main.af52f5c6.css.map": "/mythiverse-react/static/css/main.af52f5c6.css.map",
-    "main.2586cea1.js.map": "/mythiverse-react/static/js/main.2586cea1.js.map"
+    "main.22f759db.css.map": "/mythiverse-react/static/css/main.22f759db.css.map",
+    "main.2b860873.js.map": "/mythiverse-react/static/js/main.2b860873.js.map"
   },
   "entrypoints": [
-    "static/css/main.af52f5c6.css",
-    "static/js/main.2586cea1.js"
+    "static/css/main.22f759db.css",
+    "static/js/main.2b860873.js"
   ]
 }
